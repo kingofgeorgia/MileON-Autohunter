@@ -149,6 +149,7 @@ class ListingScores(BaseModel):
     mileage_score: float
     liquidity_score: float
     condition_score: float
+    data_confidence_score: float
     risk_score: float
     expected_sell_price: float
     ml_expected_price: Optional[float] = None

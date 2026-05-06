@@ -25,7 +25,7 @@ def _build_keyboard(listing_id: int) -> dict[str, Any]:
 def _build_alert_text(summary: dict[str, Any]) -> str:
     lines = [
         f"Status: {summary['decision']}",
-        f"DealScore: {summary['deal_score']:.1f}",
+        f"Opportunity: {summary['deal_score']:.1f}",
         f"BuyScore: {summary['buy_score']:.1f}",
         f"Price: ${summary['price_usd']:.0f}",
         f"Expected Sell: ${summary['expected_sell_price']:.0f}",
@@ -121,7 +121,7 @@ async def send_top5_alert(session: AsyncSession, company_id: int, listings: list
         
         lines.append(
             f"#{idx}. <b>{brand} {model}</b> ({year})\n"
-            f"   💰 ${price:.0f} | 🎯 Buy: {buy_score:.1f} | 📊 Deal: {deal_score:.1f} | ROI: {roi:.1f}%\n"
+            f"   💰 ${price:.0f} | 🎯 Buy: {buy_score:.1f} | 📊 Opportunity: {deal_score:.1f} | ROI: {roi:.1f}%\n"
         )
     
     text = "".join(lines)

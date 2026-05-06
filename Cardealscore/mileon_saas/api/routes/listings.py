@@ -92,6 +92,7 @@ async def send_top5_telegram(
         for listing in listings:
             try:
                 scores = await evaluate_listing(session, listing)
+                score_summary = scores.model_dump()
                 results.append({
                     "listing": CarListingRead.model_validate(listing),
                     "scores": scores,
@@ -99,9 +100,9 @@ async def send_top5_telegram(
                     "model": listing.model,
                     "year": listing.year,
                     "price_usd": listing.price_usd,
-                    "buy_score": scores.get("buy_score", 0),
-                    "deal_score": scores.get("deal_score", 0),
-                    "roi_percent": scores.get("roi_percent", 0),
+                    "buy_score": score_summary.get("buy_score", 0),
+                    "deal_score": score_summary.get("deal_score", 0),
+                    "roi_percent": score_summary.get("roi_percent", 0),
                 })
             except Exception as e:
                 import logging

@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from mileon_saas.config import settings
 from mileon_saas.services.common import clamp
 
 
@@ -14,18 +13,18 @@ class DecisionResult:
 
 def compute_buy_score(
     roi_percent: float,
-    deal_score: float,
+    price_score: float,
     liquidity_score: float,
-    risk_score: float,
+    data_confidence_score: float,
+    target_roi_percent: float = 15.0,
 ) -> float:
-    roi_score = clamp(roi_percent / 30.0) * 100.0
-    risk_safety = clamp(risk_score / 100.0) * 100.0
+    roi_score = clamp(roi_percent / max(target_roi_percent, 1.0)) * 100.0
 
     return (
-        0.40 * roi_score
-        + 0.25 * deal_score
-        + 0.20 * liquidity_score
-        + 0.15 * risk_safety
+        0.45 * roi_score
+        + 0.25 * liquidity_score
+        + 0.20 * price_score
+        + 0.10 * data_confidence_score
     )
 
 
@@ -33,23 +32,36 @@ def decide_buy(
     buy_score: float,
     roi_percent: float,
     risk_score: float,
-    ml_confidence: float,
     min_roi_required: float,
     blacklist_blocked: bool,
+    liquidity_score: float,
+    data_confidence_score: float,
+    net_profit: float,
 ) -> DecisionResult:
+    if blacklist_blocked:
+        return DecisionResult(buy_score=buy_score, decision="BLOCKED")
+
+    if net_profit <= 0 or roi_percent < min_roi_required * 0.6:
+        return DecisionResult(buy_score=buy_score, decision="SKIP")
+
+    if risk_score < 60:
+        if roi_percent >= min_roi_required and buy_score >= 60:
+            return DecisionResult(buy_score=buy_score, decision="CALL_SELLER")
+        return DecisionResult(buy_score=buy_score, decision="WATCH")
+
     if (
-        buy_score >= 90
+        buy_score >= 75
         and roi_percent >= min_roi_required
-        and risk_score >= 75
-        and not blacklist_blocked
-        and ml_confidence >= settings.ml_confidence_threshold
+        and liquidity_score >= 50
+        and risk_score >= 70
+        and data_confidence_score >= 45
     ):
-        return DecisionResult(buy_score=buy_score, decision="BUY WITHOUT DOUBT")
+        return DecisionResult(buy_score=buy_score, decision="GO_CHECK")
 
-    if buy_score >= 75 and roi_percent >= min_roi_required and risk_score >= 60 and not blacklist_blocked:
-        return DecisionResult(buy_score=buy_score, decision="BUY NOW")
+    if roi_percent >= min_roi_required and buy_score >= 60:
+        return DecisionResult(buy_score=buy_score, decision="CALL_SELLER")
 
-    if buy_score >= 60:
-        return DecisionResult(buy_score=buy_score, decision="CONSIDER")
+    if buy_score >= 50:
+        return DecisionResult(buy_score=buy_score, decision="WATCH")
 
     return DecisionResult(buy_score=buy_score, decision="SKIP")

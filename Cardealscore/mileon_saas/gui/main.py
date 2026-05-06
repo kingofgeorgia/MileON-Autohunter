@@ -1313,11 +1313,11 @@ class SaaSApp:
         if not decision:
             return None
         value = decision.strip().lower()
-        if value == "buy":
+        if value in {"buy", "buy now", "go_check"}:
             return "decision_buy"
-        if value == "hold":
+        if value in {"hold", "consider", "call_seller", "watch"}:
             return "decision_hold"
-        if value == "pass":
+        if value in {"pass", "skip", "blocked"}:
             return "decision_pass"
         return None
 

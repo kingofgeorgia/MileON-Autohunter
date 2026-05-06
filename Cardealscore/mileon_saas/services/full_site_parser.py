@@ -211,6 +211,19 @@ class FullSiteParser:
             'door_type_id': api_item.get('door_type_id'),
             'color_id': api_item.get('color_id'),
             'airbags': api_item.get('airbags'),
+            'price_value': api_item.get('price_value'),
+            'fuel_type_id': api_item.get('fuel_type_id'),
+            'tech_inspection': api_item.get('tech_inspection'),
+            'predicted_price': api_item.get('predicted_price'),
+            'pred_min_price': api_item.get('pred_min_price'),
+            'pred_max_price': api_item.get('pred_max_price'),
+            'views': api_item.get('views'),
+            'daily_views': api_item.get('daily_views'),
+            'order_date': api_item.get('order_date'),
+            'changable': api_item.get('changable'),
+            'for_rent': api_item.get('for_rent'),
+            'rent_daily': api_item.get('rent_daily'),
+            'rent_purchase': api_item.get('rent_purchase'),
         }
         
         return {

@@ -8,7 +8,6 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from mileon_saas.config import settings
 from mileon_saas.models import BrandPolicy, CarListing, MarketStats, TechnicalBlacklist
 from mileon_saas.schemas import ListingScores
-from mileon_saas.services.common import condition_score, expected_mileage
 from mileon_saas.services.decision import decide_buy, compute_buy_score
 # ML temporarily on hold
 # from mileon_saas.services.ml import confidence as ml_confidence_score
@@ -94,18 +93,21 @@ async def evaluate_listing(session: AsyncSession, listing: CarListing) -> Listin
 
     buy_score = compute_buy_score(
         pricing.roi_percent,
-        deal_result.deal_score,
+        deal_result.price_score,
         deal_result.liquidity_score,
-        deal_result.risk_score,
+        deal_result.data_confidence_score,
+        target_roi_percent=brand_policy.min_roi_required if brand_policy else 15.0,
     )
     min_roi_required = brand_policy.min_roi_required if brand_policy else 12.0
     decision = decide_buy(
         buy_score,
         pricing.roi_percent,
         deal_result.risk_score,
-        ml_confidence,
         min_roi_required,
         deal_result.blacklist_blocked,
+        deal_result.liquidity_score,
+        deal_result.data_confidence_score,
+        pricing.net_profit,
     )
 
     return ListingScores(
@@ -115,6 +117,7 @@ async def evaluate_listing(session: AsyncSession, listing: CarListing) -> Listin
         mileage_score=deal_result.mileage_score,
         liquidity_score=deal_result.liquidity_score,
         condition_score=deal_result.condition_score,
+        data_confidence_score=deal_result.data_confidence_score,
         risk_score=deal_result.risk_score,
         expected_sell_price=pricing.expected_sell_price,
         ml_expected_price=ml_expected_price,

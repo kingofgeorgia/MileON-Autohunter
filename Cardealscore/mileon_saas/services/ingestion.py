@@ -17,25 +17,33 @@ def _load_json(path: str) -> list[dict]:
 
 
 _MAN_MODEL_INDEX: dict[int, dict[int, str]] | None = None
+_MAN_NAME_INDEX: dict[int, str] | None = None
 
 
 def _load_model_index() -> dict[int, dict[int, str]]:
-    global _MAN_MODEL_INDEX
+    global _MAN_MODEL_INDEX, _MAN_NAME_INDEX
     if _MAN_MODEL_INDEX is not None:
         return _MAN_MODEL_INDEX
 
     mans_path = Path("mansNModels.json")
     if not mans_path.exists():
+        mans_path = Path(__file__).resolve().parents[2] / "mansNModels.json"
+    if not mans_path.exists():
         _MAN_MODEL_INDEX = {}
+        _MAN_NAME_INDEX = {}
         return _MAN_MODEL_INDEX
 
     data = json.loads(mans_path.read_text(encoding="utf-8"))
     index: dict[int, dict[int, str]] = {}
+    names: dict[int, str] = {}
     for man_id, man_data in data.items():
         try:
             man_key = int(man_id)
         except (TypeError, ValueError):
             continue
+        make_name = str(man_data.get("make_name") or "").strip()
+        if make_name:
+            names[man_key] = make_name
         models = man_data.get("models", [])
         model_map: dict[int, str] = {}
         for model in models:
@@ -47,6 +55,7 @@ def _load_model_index() -> dict[int, dict[int, str]]:
             index[man_key] = model_map
 
     _MAN_MODEL_INDEX = index
+    _MAN_NAME_INDEX = names
     return _MAN_MODEL_INDEX
 
 
@@ -55,6 +64,13 @@ def _get_model_by_id(man_id: int | None, model_id: int | None) -> str | None:
         return None
     index = _load_model_index()
     return index.get(man_id, {}).get(model_id)
+
+
+def _get_make_by_id(man_id: int | None) -> str | None:
+    if not isinstance(man_id, int):
+        return None
+    _load_model_index()
+    return (_MAN_NAME_INDEX or {}).get(man_id)
 
 
 def _map_record(record: dict, company_id: int) -> tuple[dict, dict]:
@@ -77,7 +93,12 @@ def _map_record(record: dict, company_id: int) -> tuple[dict, dict]:
     elif not model_source:
         model_source = "record"
 
+    incoming_metadata = record.get("metadata") or record.get("listing_metadata") or {}
+    if not isinstance(incoming_metadata, dict):
+        incoming_metadata = {}
+
     meta = {
+        **incoming_metadata,
         "car_id": record.get("car_id"),
         "man_id": man_id,
         "model_id": model_id,
@@ -85,6 +106,23 @@ def _map_record(record: dict, company_id: int) -> tuple[dict, dict]:
         "model": model,
         "trim": record.get("trim"),
         "model_source": model_source,
+        "pic_number": record.get("pic_number") or incoming_metadata.get("pic_number"),
+        "price_value": record.get("price_value") or incoming_metadata.get("price_value"),
+        "fuel_type_id": record.get("fuel_type_id") or record.get("fuel_type") or incoming_metadata.get("fuel_type_id"),
+        "gear_type_id": record.get("gear_type_id") or incoming_metadata.get("gear_type_id"),
+        "drive_type_id": record.get("drive_type_id") or incoming_metadata.get("drive_type_id"),
+        "category_id": record.get("category_id") or record.get("category") or incoming_metadata.get("category_id"),
+        "tech_inspection": record.get("tech_inspection") if "tech_inspection" in record else incoming_metadata.get("tech_inspection"),
+        "predicted_price": record.get("predicted_price") or incoming_metadata.get("predicted_price"),
+        "pred_min_price": record.get("pred_min_price") or incoming_metadata.get("pred_min_price"),
+        "pred_max_price": record.get("pred_max_price") or incoming_metadata.get("pred_max_price"),
+        "views": record.get("views") or incoming_metadata.get("views"),
+        "daily_views": record.get("daily_views") or incoming_metadata.get("daily_views"),
+        "order_date": record.get("order_date") or record.get("date") or incoming_metadata.get("order_date"),
+        "changable": record.get("changable") if "changable" in record else incoming_metadata.get("changable"),
+        "for_rent": record.get("for_rent") if "for_rent" in record else incoming_metadata.get("for_rent"),
+        "rent_daily": record.get("rent_daily") if "rent_daily" in record else incoming_metadata.get("rent_daily"),
+        "rent_purchase": record.get("rent_purchase") if "rent_purchase" in record else incoming_metadata.get("rent_purchase"),
     }
 
     return {
@@ -93,9 +131,9 @@ def _map_record(record: dict, company_id: int) -> tuple[dict, dict]:
         "source_listing_id": str(record.get("car_id")) if record.get("car_id") else None,
         
         # Basic info
-        "brand": record.get("make_name") or "unknown",
+        "brand": record.get("make_name") or _get_make_by_id(man_id) or "unknown",
         "model": model,
-        "year": record.get("year"),
+        "year": record.get("year") or record.get("prod_year"),
         
         # Engine
         "engine_type": None,
@@ -113,7 +151,7 @@ def _map_record(record: dict, company_id: int) -> tuple[dict, dict]:
         "color": record.get("color"),
         
         # Mileage and price
-        "mileage_km": record.get("mileage_km"),
+        "mileage_km": record.get("mileage_km") or record.get("car_run_km"),
         "price_usd": record.get("price_usd"),
         
         # History and condition
@@ -134,14 +172,14 @@ def _map_record(record: dict, company_id: int) -> tuple[dict, dict]:
         
         # Media and description
         "photo_url": record.get("photo_url"),
-        "description": record.get("description"),
+        "description": record.get("description") or record.get("car_desc"),
         
         # Timestamps
-        "listing_date": record.get("date"),
+        "listing_date": record.get("date") or record.get("order_date"),
         
         # Features and metadata (JSON fields)
         "features": record.get("features"),
-        "listing_metadata": record.get("metadata"),
+        "listing_metadata": meta,
     }, meta
 
 
