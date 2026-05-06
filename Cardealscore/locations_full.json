@@ -1,0 +1,374 @@
+[
+  {
+    "location_id": 2,
+    "title": "Tbilisi"
+  },
+  {
+    "location_id": 3,
+    "title": "Kutaisi"
+  },
+  {
+    "location_id": 4,
+    "title": "Batumi"
+  },
+  {
+    "location_id": 7,
+    "title": "Poti"
+  },
+  {
+    "location_id": 15,
+    "title": "Rustavi"
+  },
+  {
+    "location_id": 30,
+    "title": "Rustavi Car Market"
+  },
+  {
+    "location_id": 113,
+    "title": "Caucasus Auto Market"
+  },
+  {
+    "location_id": 53,
+    "title": "Dusheti"
+  },
+  {
+    "location_id": 39,
+    "title": "Kaspi"
+  },
+  {
+    "location_id": 38,
+    "title": "Borjomi"
+  },
+  {
+    "location_id": 37,
+    "title": "Akhmeta"
+  },
+  {
+    "location_id": 36,
+    "title": "Zestaphoni"
+  },
+  {
+    "location_id": 40,
+    "title": "Sagarejo"
+  },
+  {
+    "location_id": 41,
+    "title": "Kobuleti"
+  },
+  {
+    "location_id": 44,
+    "title": "Gurjaani"
+  },
+  {
+    "location_id": 31,
+    "title": "Akhaltsikhe"
+  },
+  {
+    "location_id": 5,
+    "title": "Sokhumi"
+  },
+  {
+    "location_id": 47,
+    "title": "Martvili"
+  },
+  {
+    "location_id": 48,
+    "title": "Chiatura"
+  },
+  {
+    "location_id": 52,
+    "title": "Chkhorotsku"
+  },
+  {
+    "location_id": 8,
+    "title": "Telavi"
+  },
+  {
+    "location_id": 54,
+    "title": "Lagodekhi"
+  },
+  {
+    "location_id": 16,
+    "title": "Mtskheta"
+  },
+  {
+    "location_id": 6,
+    "title": "Tskhinvali"
+  },
+  {
+    "location_id": 14,
+    "title": "Akhalkalaki"
+  },
+  {
+    "location_id": 13,
+    "title": "Gori"
+  },
+  {
+    "location_id": 12,
+    "title": "Khashuri"
+  },
+  {
+    "location_id": 11,
+    "title": "Ambrolauri"
+  },
+  {
+    "location_id": 10,
+    "title": "Ozurgeti"
+  },
+  {
+    "location_id": 9,
+    "title": "Zugdidi"
+  },
+  {
+    "location_id": 21,
+    "title": "USA"
+  },
+  {
+    "location_id": 55,
+    "title": "Senaki"
+  },
+  {
+    "location_id": 56,
+    "title": "Sighnaghi"
+  },
+  {
+    "location_id": 19,
+    "title": "Germany"
+  },
+  {
+    "location_id": 57,
+    "title": "Kareli"
+  },
+  {
+    "location_id": 22,
+    "title": "Japan"
+  },
+  {
+    "location_id": 59,
+    "title": "Marneuli"
+  },
+  {
+    "location_id": 33,
+    "title": "Europe"
+  },
+  {
+    "location_id": 58,
+    "title": "Gardabani"
+  },
+  {
+    "location_id": 45,
+    "title": "France"
+  },
+  {
+    "location_id": 35,
+    "title": "Dubai"
+  },
+  {
+    "location_id": 60,
+    "title": "South Korea"
+  },
+  {
+    "location_id": 42,
+    "title": "Italy"
+  },
+  {
+    "location_id": 20,
+    "title": "Netherlands"
+  },
+  {
+    "location_id": 43,
+    "title": "Ireland"
+  },
+  {
+    "location_id": 32,
+    "title": "England"
+  },
+  {
+    "location_id": 46,
+    "title": "Spain"
+  },
+  {
+    "location_id": 28,
+    "title": "Russia"
+  },
+  {
+    "location_id": 23,
+    "title": "On way to Georgia"
+  },
+  {
+    "location_id": 1,
+    "title": "Georgia"
+  },
+  {
+    "location_id": 29,
+    "title": "Abroad"
+  },
+  {
+    "location_id": 24,
+    "title": "Other"
+  },
+  {
+    "location_id": 61,
+    "title": "Samtredia"
+  },
+  {
+    "location_id": 62,
+    "title": "Mestia"
+  },
+  {
+    "location_id": 63,
+    "title": "Sachkhere"
+  },
+  {
+    "location_id": 64,
+    "title": "Khobi"
+  },
+  {
+    "location_id": 65,
+    "title": "Ukraine"
+  },
+  {
+    "location_id": 66,
+    "title": "Tianeti"
+  },
+  {
+    "location_id": 69,
+    "title": "China"
+  },
+  {
+    "location_id": 70,
+    "title": "Canada"
+  },
+  {
+    "location_id": 71,
+    "title": "POTI \"ECZ\""
+  },
+  {
+    "location_id": 72,
+    "title": "BATUMI \"ECZ\""
+  },
+  {
+    "location_id": 74,
+    "title": "Kvareli"
+  },
+  {
+    "location_id": 75,
+    "title": "Tkibuli"
+  },
+  {
+    "location_id": 76,
+    "title": "Dedoplistskaro"
+  },
+  {
+    "location_id": 77,
+    "title": "Oni"
+  },
+  {
+    "location_id": 78,
+    "title": "Bolnisi"
+  },
+  {
+    "location_id": 79,
+    "title": "Turkey"
+  },
+  {
+    "location_id": 80,
+    "title": "Tskaltubo"
+  },
+  {
+    "location_id": 81,
+    "title": "Tetritskaro"
+  },
+  {
+    "location_id": 82,
+    "title": "Tianeti"
+  },
+  {
+    "location_id": 83,
+    "title": "Kharagauli"
+  },
+  {
+    "location_id": 84,
+    "title": "Tsalka"
+  },
+  {
+    "location_id": 85,
+    "title": "Tsalenjikha"
+  },
+  {
+    "location_id": 86,
+    "title": "Tserovani"
+  },
+  {
+    "location_id": 87,
+    "title": "Lanchkhuti"
+  },
+  {
+    "location_id": 88,
+    "title": "Sartichala"
+  },
+  {
+    "location_id": 91,
+    "title": "Khoni"
+  },
+  {
+    "location_id": 93,
+    "title": "Poland"
+  },
+  {
+    "location_id": 96,
+    "title": "Ninotsminda"
+  },
+  {
+    "location_id": 97,
+    "title": "Aspindza"
+  },
+  {
+    "location_id": 101,
+    "title": "Abasha"
+  },
+  {
+    "location_id": 109,
+    "title": "Tsageri"
+  },
+  {
+    "location_id": 116,
+    "title": "Chakvi"
+  },
+  {
+    "location_id": 119,
+    "title": "Chokhatauri"
+  },
+  {
+    "location_id": 122,
+    "title": "Terjola"
+  },
+  {
+    "location_id": 125,
+    "title": "Armenia"
+  },
+  {
+    "location_id": 127,
+    "title": "Lechkhumi"
+  },
+  {
+    "location_id": 131,
+    "title": "Dmanisi"
+  },
+  {
+    "location_id": 133,
+    "title": "Ureki"
+  },
+  {
+    "location_id": 137,
+    "title": "Gudauri"
+  },
+  {
+    "location_id": 139,
+    "title": "Vani"
+  },
+  {
+    "location_id": 143,
+    "title": "Baghdadi"
+  }
+]

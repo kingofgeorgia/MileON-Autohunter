@@ -1,0 +1,51 @@
+[
+  {
+    "make": "Lexus",
+    "make_aliases": ["lexus"],
+    "model": "LX 600",
+    "model_aliases": ["lx 600", "lx600", "luxury plus"],
+    "man_id": 23,
+    "model_id": 9810,
+    "year_from": 2025,
+    "year_to": 2026,
+    "engine_cc": 3500,
+    "fuel_type_id": 2,
+    "horse_power": 415,
+    "powertrain_kind": "ICE"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "make_aliases": ["mercedes-benz", "mercedes benz", "mercedes"],
+    "model": "GLE 450",
+    "model_aliases": ["gle 450", "gle450", "amg line gle 450"],
+    "year_from": 2019,
+    "year_to": 2026,
+    "engine_cc": 3000,
+    "fuel_type_id": 2,
+    "horse_power": 381,
+    "powertrain_kind": "OTHER_HYBRID"
+  },
+  {
+    "make": "Tesla",
+    "make_aliases": ["tesla"],
+    "model": "Model X 75D",
+    "model_aliases": ["model x", "75d", "model x 75d"],
+    "year_from": 2016,
+    "year_to": 2020,
+    "fuel_type_id": 7,
+    "horse_power": 525,
+    "powertrain_kind": "EV"
+  },
+  {
+    "make": "BMW",
+    "make_aliases": ["bmw"],
+    "model": "M4 Competition xDrive",
+    "model_aliases": ["m4", "competition xdrive", "m4 competition xdrive"],
+    "year_from": 2021,
+    "year_to": 2026,
+    "engine_cc": 3000,
+    "fuel_type_id": 2,
+    "horse_power": 530,
+    "powertrain_kind": "ICE"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "calculator": "კალკულატორი",
+    "catalog": "მანქანების კატალოგი",
+    "history": "ისტორია",
+    "login": "შესვლა",
+    "register": "რეგისტრაცია",
+    "logout": "გასვლა"
+  },
+  "hero": {
+    "title": "ღირს საქართველოდან მანქანის ჩამოყვანა?",
+    "subtitle": "გამოთვალეთ საქართველოდან რუსეთში მანქანის შემოტანის სრული ღირებულება — საბაჟო, უტილიზაციის გადასახადი, ლოჯისტიკა — და შეადარეთ რუსულ ანალოგს.",
+    "cta": "გამოთვლა"
+  },
+  "calculator": {
+    "title": "შემოტანის ღირებულების კალკულატორი",
+    "carPriceUsd": "მანქანის ფასი (USD)",
+    "engineVolume": "ძრავის მოცულობა (სმ³)",
+    "carYear": "გამოშვების წელი",
+    "horsePower": "სიმძლავრე (ცხ.ძ.)",
+    "powerKw": "სიმძლავრე (კვტ)",
+    "fuelType": "საწვავის ტიპი",
+    "fuelTypeAuto": "ავტომატურად ივსება განცხადებიდან",
+    "engineVolumeNotRequiredForEv": "ელექტრომობილისთვის საჭირო არ არის",
+    "powertrainKind": "ძალური აგრეგატის ტიპი",
+    "powertrainKinds": {
+      "ICE": "შიდა წვის ძრავა",
+      "OTHER_HYBRID": "ჰიბრიდი",
+      "EV": "ელექტრომობილი",
+      "SERIES_HYBRID": "სერიული ჰიბრიდი"
+    },
+    "logisticsCost": "ლოჯისტიკა საქართველო → რუსეთი (₽)",
+    "rfAnalogPrice": "ანალოგის ფასი რუსეთში (₽, არასავალდებულო)",
+    "openAutoRuAnalogSearch": "გახსენით ანალოგის ძებნა auto.ru-ზე",
+    "autoRuAnalogSearchHint": "გაიხსნება მზა ძებნა მარკის, მოდელის, წლის, სიმძლავრის და ძრავის მოცულობის მიხედვით.",
+    "note": "შენიშვნა (არასავალდებულო)",
+    "urlLabel": "myauto.ge ბმული",
+    "urlPlaceholder": "https://www.myauto.ge/.../pr/12345678",
+    "urlLoad": "მანქანის ჩატვირთვა",
+    "horsePowerDetected": "სიმძლავრე დადგენილია: {hp} ცხ.ძ.",
+    "powerKwDetected": "სიმძლავრე დადგენილია: {kw} კვტ",
+    "canonicalModel": "კანონიკური მოდელი",
+    "calculate": "გამოთვლა",
+    "saveToHistory": "გამოთვლის შენახვა",
+    "results": {
+      "title": "გამოთვლის შედეგი",
+      "carPrice": "მანქანის ფასი რუბლებში",
+      "customsFee": "საბაჟო მოსაკრებელი",
+      "customsDuty": "საბაჟო გადასახადი",
+      "recyclingFee": "უტილიზაციის გადასახადი",
+      "totalCustoms": "საბაჟო ხარჯების ჯამი",
+      "logistics": "ლოჯისტიკა",
+      "total": "სულ",
+      "savings": "დაზოგვა რუსეთთან შედარებით",
+      "overpay": "გადამეტება რუსეთთან შედარებით"
+    }
+  },
+  "rates": {
+    "title": "მიმდინარე კურსები",
+    "usdRub": "USD → ₽",
+    "eurRub": "EUR → ₽",
+    "gelRub": "GEL → ₽"
+  },
+  "catalog": {
+    "title": "myauto.ge-ს კატალოგი",
+    "search": "ძებნა",
+    "allMakes": "ყველა მარკა",
+    "allModels": "ყველა მოდელი",
+    "make": "მარკა",
+    "model": "მოდელი",
+    "canonicalModel": "კანონიკური მოდელი",
+    "yearFrom": "წელი დან",
+    "yearTo": "წელი მდე",
+    "priceUsdTo": "ფასი მდე (USD)",
+    "logisticsCost": "ლოჯისტიკა (₽)",
+    "loadingModels": "მოდელები იტვირთება...",
+    "estimatedTotal": "სავარაუდო ჯამი (RUB)",
+    "noResults": "მანქანები ვერ მოიძებნა.",
+    "viewOnMyauto": "myauto.ge-ზე ნახვა",
+    "mileage": "გარბენი",
+    "km": "კმ"
+  },
+  "gallery": {
+    "open": "ფოტოს სრულ ეკრანზე გახსნა",
+    "close": "სრულეკრანიანი ნახვის დახურვა",
+    "previous": "წინა ფოტო",
+    "next": "შემდეგი ფოტო",
+    "photoNumber": "ფოტო {current} / {total}"
+  },
+  "history": {
+    "title": "გამოთვლების ისტორია",
+    "empty": "შენახული გამოთვლები არ გაქვთ.",
+    "delete": "წაშლა",
+    "total": "სულ",
+    "year": "წელი",
+    "engine": "ძრავი",
+    "horsePower": "სიმძლავრე",
+    "date": "თარიღი"
+  },
+  "auth": {
+    "email": "ელ.ფოსტა",
+    "password": "პაროლი",
+    "loginTitle": "შესვლა",
+    "registerTitle": "რეგისტრაცია",
+    "loginAction": "შესვლა",
+    "registerAction": "რეგისტრაცია",
+    "noAccount": "ანგარიში არ გაქვთ?",
+    "hasAccount": "უკვე გაქვთ ანგარიში?",
+    "signUp": "რეგისტრაცია",
+    "signIn": "შესვლა"
+  },
+  "errors": {
+    "required": "სავალდებულო ველი",
+    "invalidEmail": "არასწორი ელ.ფოსტა",
+    "minPassword": "მინიმუმ 8 სიმბოლო",
+    "generic": "დაფიქსირდა შეცდომა. სცადეთ ხელახლა."
+  }
+}

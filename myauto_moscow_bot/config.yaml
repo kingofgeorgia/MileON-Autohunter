@@ -1,0 +1,126 @@
+myauto:
+  base_api: "https://api2.myauto.ge"
+  languages:
+    - "en"
+    - "ru"
+    - "ka"
+  timeout: 30
+  currency_map:
+    1: "USD"
+    2: "GEL"
+    3: "EUR"
+
+exchange:
+  fallback_usd_rub: 95.0
+  fallback_eur_rub: 103.0
+  fallback_gel_rub: 35.0
+
+costs:
+  fixed:
+    - name: "Логистика Грузия → Москва"
+      amount_rub: 250000
+    - name: "Таможенный брокер / оформление"
+      amount_rub: 35000
+    - name: "СБКТС + ЭПТС"
+      amount_rub: 55000
+    - name: "СВХ / терминал / выдача"
+      amount_rub: 18000
+    - name: "Прочие расходы"
+      amount_rub: 12000
+
+tariffs:
+  customs_fee_rub_bands:
+    - max_value_rub: 200000
+      fee_rub: 1067
+    - max_value_rub: 450000
+      fee_rub: 2134
+    - max_value_rub: 1200000
+      fee_rub: 4269
+    - max_value_rub: 2700000
+      fee_rub: 11746
+    - max_value_rub: 4200000
+      fee_rub: 16524
+    - max_value_rub: 5500000
+      fee_rub: 21344
+    - max_value_rub: 7000000
+      fee_rub: 27540
+    - max_value_rub: 8000000
+      fee_rub: 30000
+    - max_value_rub: 9000000
+      fee_rub: 30000
+    - max_value_rub: 10000000
+      fee_rub: 30000
+    - max_value_rub: 9999999999
+      fee_rub: 30000
+
+  used_auto_duty:
+    age_rules:
+      - min_years: 0
+        max_years: 3
+        mode: "percent_or_min_per_cc"
+        percent: 0.48
+        min_eur_per_cc_bands:
+          - up_to_engine_cc: 1000
+            eur_per_cc: 1.5
+          - up_to_engine_cc: 1500
+            eur_per_cc: 1.7
+          - up_to_engine_cc: 1800
+            eur_per_cc: 2.5
+          - up_to_engine_cc: 2300
+            eur_per_cc: 2.7
+          - up_to_engine_cc: 3000
+            eur_per_cc: 3.0
+          - up_to_engine_cc: 999999
+            eur_per_cc: 3.6
+
+      - min_years: 3
+        max_years: 5
+        mode: "eur_per_cc"
+        eur_per_cc_bands:
+          - up_to_engine_cc: 1000
+            eur_per_cc: 1.5
+          - up_to_engine_cc: 1500
+            eur_per_cc: 1.7
+          - up_to_engine_cc: 1800
+            eur_per_cc: 2.5
+          - up_to_engine_cc: 2300
+            eur_per_cc: 2.7
+          - up_to_engine_cc: 3000
+            eur_per_cc: 3.0
+          - up_to_engine_cc: 999999
+            eur_per_cc: 3.6
+
+      - min_years: 5
+        max_years: 100
+        mode: "eur_per_cc"
+        eur_per_cc_bands:
+          - up_to_engine_cc: 1000
+            eur_per_cc: 3.0
+          - up_to_engine_cc: 1500
+            eur_per_cc: 3.2
+          - up_to_engine_cc: 1800
+            eur_per_cc: 3.5
+          - up_to_engine_cc: 2300
+            eur_per_cc: 4.8
+          - up_to_engine_cc: 3000
+            eur_per_cc: 5.0
+          - up_to_engine_cc: 999999
+            eur_per_cc: 5.7
+
+  util_fee:
+    base_rub: 20000
+    preferential:
+      enabled: true
+      max_hp: 160
+      amount_rub: 3400
+    coefficient_bands:
+      - up_to_engine_cc: 1000
+        coefficient: 0.17
+      - up_to_engine_cc: 2000
+        coefficient: 0.26
+      - up_to_engine_cc: 3000
+        coefficient: 0.50
+      - up_to_engine_cc: 3500
+        coefficient: 0.89
+      - up_to_engine_cc: 999999
+        coefficient: 1.40

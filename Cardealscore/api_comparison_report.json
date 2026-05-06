@@ -1,0 +1,2560 @@
+{
+  "generated_at": "2026-02-12 23:43:44",
+  "summary": {
+    "official_manufacturers": 160,
+    "local_manufacturers": 669,
+    "new_manufacturers": 0,
+    "removed_manufacturers": 509,
+    "new_models": 0,
+    "removed_models": 1154,
+    "updated_models": 1
+  },
+  "new_manufacturers": [],
+  "removed_manufacturers": [
+    {
+      "id": "57",
+      "name": "Neoplan",
+      "model_count": 9
+    },
+    {
+      "id": "59",
+      "name": "Yamaha",
+      "model_count": 218
+    },
+    {
+      "id": "61",
+      "name": "Kawasaki",
+      "model_count": 151
+    },
+    {
+      "id": "65",
+      "name": "MAN",
+      "model_count": 46
+    },
+    {
+      "id": "66",
+      "name": "DAF",
+      "model_count": 16
+    },
+    {
+      "id": "67",
+      "name": "Schmitz Cargobull",
+      "model_count": 14
+    },
+    {
+      "id": "71",
+      "name": "Caterpillar",
+      "model_count": 338
+    },
+    {
+      "id": "72",
+      "name": "Other",
+      "model_count": 1
+    },
+    {
+      "id": "81",
+      "name": "Ducati",
+      "model_count": 97
+    },
+    {
+      "id": "82",
+      "name": "Scania",
+      "model_count": 17
+    },
+    {
+      "id": "99",
+      "name": "ZIL",
+      "model_count": 20
+    },
+    {
+      "id": "101",
+      "name": "Kamaz",
+      "model_count": 6
+    },
+    {
+      "id": "102",
+      "name": "MAZ",
+      "model_count": 40
+    },
+    {
+      "id": "104",
+      "name": "Harley-Davidson",
+      "model_count": 60
+    },
+    {
+      "id": "105",
+      "name": "KTM",
+      "model_count": 72
+    },
+    {
+      "id": "106",
+      "name": "Jawa",
+      "model_count": 24
+    },
+    {
+      "id": "107",
+      "name": "Aprilia",
+      "model_count": 69
+    },
+    {
+      "id": "108",
+      "name": "KRAZ",
+      "model_count": 11
+    },
+    {
+      "id": "109",
+      "name": "Setra",
+      "model_count": 30
+    },
+    {
+      "id": "110",
+      "name": "JCB",
+      "model_count": 114
+    },
+    {
+      "id": "111",
+      "name": "Bobcat",
+      "model_count": 41
+    },
+    {
+      "id": "112",
+      "name": "Komatsu",
+      "model_count": 37
+    },
+    {
+      "id": "113",
+      "name": "Terex",
+      "model_count": 22
+    },
+    {
+      "id": "114",
+      "name": "New Holland",
+      "model_count": 6
+    },
+    {
+      "id": "115",
+      "name": "Massey Ferguson",
+      "model_count": 40
+    },
+    {
+      "id": "116",
+      "name": "Fiat-Hitachi",
+      "model_count": 34
+    },
+    {
+      "id": "117",
+      "name": "Fermec",
+      "model_count": 23
+    },
+    {
+      "id": "119",
+      "name": "Claas",
+      "model_count": 9
+    },
+    {
+      "id": "120",
+      "name": "Belarus",
+      "model_count": 31
+    },
+    {
+      "id": "121",
+      "name": "Case",
+      "model_count": 44
+    },
+    {
+      "id": "122",
+      "name": "Zeppelin",
+      "model_count": 2
+    },
+    {
+      "id": "123",
+      "name": "Mondial",
+      "model_count": 5
+    },
+    {
+      "id": "124",
+      "name": "BRP",
+      "model_count": 26
+    },
+    {
+      "id": "125",
+      "name": "Lintex",
+      "model_count": 7
+    },
+    {
+      "id": "126",
+      "name": "Voskhod",
+      "model_count": 9
+    },
+    {
+      "id": "127",
+      "name": "Dnepr",
+      "model_count": 9
+    },
+    {
+      "id": "128",
+      "name": "CZ",
+      "model_count": 6
+    },
+    {
+      "id": "129",
+      "name": "Muravey",
+      "model_count": 1
+    },
+    {
+      "id": "131",
+      "name": "Zoomlion",
+      "model_count": 139
+    },
+    {
+      "id": "132",
+      "name": "Sinotruk HOWO",
+      "model_count": 23
+    },
+    {
+      "id": "133",
+      "name": "Liugong",
+      "model_count": 17
+    },
+    {
+      "id": "136",
+      "name": "Polaris",
+      "model_count": 56
+    },
+    {
+      "id": "139",
+      "name": "Cagiva",
+      "model_count": 32
+    },
+    {
+      "id": "140",
+      "name": "Derbi",
+      "model_count": 4
+    },
+    {
+      "id": "141",
+      "name": "Triumph",
+      "model_count": 59
+    },
+    {
+      "id": "142",
+      "name": "Liebherr",
+      "model_count": 28
+    },
+    {
+      "id": "145",
+      "name": "Agusta",
+      "model_count": 2
+    },
+    {
+      "id": "152",
+      "name": "Branson",
+      "model_count": 8
+    },
+    {
+      "id": "153",
+      "name": "Detank",
+      "model_count": 3
+    },
+    {
+      "id": "154",
+      "name": "Deutz Fahr",
+      "model_count": 13
+    },
+    {
+      "id": "156",
+      "name": "Ural",
+      "model_count": 20
+    },
+    {
+      "id": "157",
+      "name": "Fortschritt",
+      "model_count": 10
+    },
+    {
+      "id": "160",
+      "name": "Hidromek",
+      "model_count": 3
+    },
+    {
+      "id": "163",
+      "name": "Shacman",
+      "model_count": 7
+    },
+    {
+      "id": "177",
+      "name": "Faymonville",
+      "model_count": 9
+    },
+    {
+      "id": "178",
+      "name": "Maxtrailer",
+      "model_count": 6
+    },
+    {
+      "id": "180",
+      "name": "Husqvarna",
+      "model_count": 64
+    },
+    {
+      "id": "181",
+      "name": "Moto Guzzi",
+      "model_count": 48
+    },
+    {
+      "id": "182",
+      "name": "CHL",
+      "model_count": 8
+    },
+    {
+      "id": "185",
+      "name": "John Deere",
+      "model_count": 5
+    },
+    {
+      "id": "186",
+      "name": "Valtra",
+      "model_count": 25
+    },
+    {
+      "id": "188",
+      "name": "Terberg",
+      "model_count": 10
+    },
+    {
+      "id": "189",
+      "name": "UNU",
+      "model_count": 7
+    },
+    {
+      "id": "190",
+      "name": "Beta",
+      "model_count": 9
+    },
+    {
+      "id": "193",
+      "name": "Vespa",
+      "model_count": 19
+    },
+    {
+      "id": "194",
+      "name": "Piaggio",
+      "model_count": 13
+    },
+    {
+      "id": "195",
+      "name": "SYM",
+      "model_count": 84
+    },
+    {
+      "id": "196",
+      "name": "Buell",
+      "model_count": 8
+    },
+    {
+      "id": "197",
+      "name": "Lovol",
+      "model_count": 91
+    },
+    {
+      "id": "198",
+      "name": "Bomag",
+      "model_count": 17
+    },
+    {
+      "id": "201",
+      "name": "Krone",
+      "model_count": 11
+    },
+    {
+      "id": "202",
+      "name": "TCM",
+      "model_count": 141
+    },
+    {
+      "id": "203",
+      "name": "Hinomoto",
+      "model_count": 10
+    },
+    {
+      "id": "204",
+      "name": "Brenderoup",
+      "model_count": 14
+    },
+    {
+      "id": "205",
+      "name": "Farmtrac",
+      "model_count": 7
+    },
+    {
+      "id": "206",
+      "name": "Brentex",
+      "model_count": 1
+    },
+    {
+      "id": "208",
+      "name": "Kubota",
+      "model_count": 12
+    },
+    {
+      "id": "209",
+      "name": "Iseki",
+      "model_count": 22
+    },
+    {
+      "id": "210",
+      "name": "Yanmar",
+      "model_count": 6
+    },
+    {
+      "id": "211",
+      "name": "BCS",
+      "model_count": 6
+    },
+    {
+      "id": "212",
+      "name": "SWM",
+      "model_count": 8
+    },
+    {
+      "id": "213",
+      "name": "Hanway",
+      "model_count": 6
+    },
+    {
+      "id": "214",
+      "name": "Pony",
+      "model_count": 3
+    },
+    {
+      "id": "215",
+      "name": "ABM",
+      "model_count": 18
+    },
+    {
+      "id": "216",
+      "name": "Alfer",
+      "model_count": 3
+    },
+    {
+      "id": "217",
+      "name": "American Ironhorse",
+      "model_count": 2
+    },
+    {
+      "id": "218",
+      "name": "Apollo",
+      "model_count": 6
+    },
+    {
+      "id": "219",
+      "name": "Arlen Ness",
+      "model_count": 1
+    },
+    {
+      "id": "220",
+      "name": "Armada",
+      "model_count": 5
+    },
+    {
+      "id": "221",
+      "name": "Asiawing",
+      "model_count": 2
+    },
+    {
+      "id": "222",
+      "name": "Avantis",
+      "model_count": 10
+    },
+    {
+      "id": "223",
+      "name": "Azel",
+      "model_count": 5
+    },
+    {
+      "id": "224",
+      "name": "BSE",
+      "model_count": 27
+    },
+    {
+      "id": "225",
+      "name": "Bajaj",
+      "model_count": 13
+    },
+    {
+      "id": "226",
+      "name": "Baltmotors",
+      "model_count": 9
+    },
+    {
+      "id": "227",
+      "name": "Bars",
+      "model_count": 1
+    },
+    {
+      "id": "229",
+      "name": "Big Bear Choppers",
+      "model_count": 9
+    },
+    {
+      "id": "230",
+      "name": "Big Dog Motocycles",
+      "model_count": 3
+    },
+    {
+      "id": "231",
+      "name": "Bimota",
+      "model_count": 5
+    },
+    {
+      "id": "232",
+      "name": "Blata",
+      "model_count": 4
+    },
+    {
+      "id": "233",
+      "name": "Boom Trikes",
+      "model_count": 2
+    },
+    {
+      "id": "234",
+      "name": "Boss Hoss",
+      "model_count": 1
+    },
+    {
+      "id": "235",
+      "name": "Buccimoto",
+      "model_count": 2
+    },
+    {
+      "id": "236",
+      "name": "CF Moto",
+      "model_count": 31
+    },
+    {
+      "id": "238",
+      "name": "Carver",
+      "model_count": 1
+    },
+    {
+      "id": "239",
+      "name": "Centurion",
+      "model_count": 2
+    },
+    {
+      "id": "240",
+      "name": "Cobra",
+      "model_count": 3
+    },
+    {
+      "id": "241",
+      "name": "Confederate",
+      "model_count": 6
+    },
+    {
+      "id": "242",
+      "name": "Cronus",
+      "model_count": 1
+    },
+    {
+      "id": "243",
+      "name": "DKW",
+      "model_count": 4
+    },
+    {
+      "id": "245",
+      "name": "Deller",
+      "model_count": 3
+    },
+    {
+      "id": "246",
+      "name": "Desert Raven",
+      "model_count": 6
+    },
+    {
+      "id": "247",
+      "name": "EBR",
+      "model_count": 3
+    },
+    {
+      "id": "248",
+      "name": "Eurotex",
+      "model_count": 6
+    },
+    {
+      "id": "249",
+      "name": "Falcon",
+      "model_count": 1
+    },
+    {
+      "id": "250",
+      "name": "Fighter",
+      "model_count": 2
+    },
+    {
+      "id": "251",
+      "name": "Fine Custom Mechanics",
+      "model_count": 1
+    },
+    {
+      "id": "252",
+      "name": "Forsage",
+      "model_count": 18
+    },
+    {
+      "id": "253",
+      "name": "Futong",
+      "model_count": 1
+    },
+    {
+      "id": "254",
+      "name": "G-Max",
+      "model_count": 2
+    },
+    {
+      "id": "255",
+      "name": "Gas Gas",
+      "model_count": 3
+    },
+    {
+      "id": "256",
+      "name": "GR",
+      "model_count": 2
+    },
+    {
+      "id": "257",
+      "name": "GX Moto",
+      "model_count": 3
+    },
+    {
+      "id": "258",
+      "name": "Gilera",
+      "model_count": 7
+    },
+    {
+      "id": "259",
+      "name": "Gryphon",
+      "model_count": 1
+    },
+    {
+      "id": "260",
+      "name": "Honling",
+      "model_count": 1
+    },
+    {
+      "id": "261",
+      "name": "Husaberg",
+      "model_count": 21
+    },
+    {
+      "id": "262",
+      "name": "Hyosung",
+      "model_count": 12
+    },
+    {
+      "id": "263",
+      "name": "Irbis",
+      "model_count": 16
+    },
+    {
+      "id": "264",
+      "name": "Indian",
+      "model_count": 11
+    },
+    {
+      "id": "265",
+      "name": "JMC",
+      "model_count": 7
+    },
+    {
+      "id": "269",
+      "name": "Jianshe",
+      "model_count": 1
+    },
+    {
+      "id": "270",
+      "name": "Johnny Pag",
+      "model_count": 8
+    },
+    {
+      "id": "271",
+      "name": "Kayo",
+      "model_count": 25
+    },
+    {
+      "id": "272",
+      "name": "KXD",
+      "model_count": 6
+    },
+    {
+      "id": "273",
+      "name": "Kaxa Motors",
+      "model_count": 5
+    },
+    {
+      "id": "274",
+      "name": "Keeway",
+      "model_count": 19
+    },
+    {
+      "id": "275",
+      "name": "Kymco",
+      "model_count": 16
+    },
+    {
+      "id": "276",
+      "name": "Legend",
+      "model_count": 1
+    },
+    {
+      "id": "277",
+      "name": "Loncin",
+      "model_count": 6
+    },
+    {
+      "id": "278",
+      "name": "MV Agusta",
+      "model_count": 22
+    },
+    {
+      "id": "279",
+      "name": "MZ",
+      "model_count": 12
+    },
+    {
+      "id": "280",
+      "name": "Malaguti",
+      "model_count": 6
+    },
+    {
+      "id": "281",
+      "name": "Mikilon",
+      "model_count": 6
+    },
+    {
+      "id": "282",
+      "name": "Minsk",
+      "model_count": 22
+    },
+    {
+      "id": "283",
+      "name": "Motax",
+      "model_count": 2
+    },
+    {
+      "id": "284",
+      "name": "Moto Morini",
+      "model_count": 14
+    },
+    {
+      "id": "285",
+      "name": "Motoland",
+      "model_count": 47
+    },
+    {
+      "id": "286",
+      "name": "Nexus",
+      "model_count": 4
+    },
+    {
+      "id": "287",
+      "name": "Nipponia",
+      "model_count": 1
+    },
+    {
+      "id": "288",
+      "name": "Norton",
+      "model_count": 1
+    },
+    {
+      "id": "289",
+      "name": "Ohvale",
+      "model_count": 4
+    },
+    {
+      "id": "290",
+      "name": "Omaks Motors",
+      "model_count": 11
+    },
+    {
+      "id": "291",
+      "name": "Orion",
+      "model_count": 15
+    },
+    {
+      "id": "292",
+      "name": "Pannonia",
+      "model_count": 8
+    },
+    {
+      "id": "293",
+      "name": "Patron",
+      "model_count": 14
+    },
+    {
+      "id": "294",
+      "name": "Pioneer",
+      "model_count": 1
+    },
+    {
+      "id": "295",
+      "name": "Pitster Pro",
+      "model_count": 6
+    },
+    {
+      "id": "296",
+      "name": "Progasi",
+      "model_count": 2
+    },
+    {
+      "id": "297",
+      "name": "Racer",
+      "model_count": 20
+    },
+    {
+      "id": "298",
+      "name": "Regal Raptor",
+      "model_count": 6
+    },
+    {
+      "id": "299",
+      "name": "Reggy",
+      "model_count": 1
+    },
+    {
+      "id": "300",
+      "name": "Regulmoto",
+      "model_count": 9
+    },
+    {
+      "id": "301",
+      "name": "Rieju",
+      "model_count": 5
+    },
+    {
+      "id": "302",
+      "name": "Rokon",
+      "model_count": 3
+    },
+    {
+      "id": "303",
+      "name": "Royal Enfield",
+      "model_count": 10
+    },
+    {
+      "id": "304",
+      "name": "Rucker Perfomance",
+      "model_count": 1
+    },
+    {
+      "id": "305",
+      "name": "S2 Motors",
+      "model_count": 2
+    },
+    {
+      "id": "306",
+      "name": "Sachs",
+      "model_count": 10
+    },
+    {
+      "id": "307",
+      "name": "Sagitta",
+      "model_count": 2
+    },
+    {
+      "id": "308",
+      "name": "Saxon",
+      "model_count": 9
+    },
+    {
+      "id": "309",
+      "name": "Sherco",
+      "model_count": 29
+    },
+    {
+      "id": "310",
+      "name": "Siamoto",
+      "model_count": 3
+    },
+    {
+      "id": "311",
+      "name": "Simson",
+      "model_count": 3
+    },
+    {
+      "id": "312",
+      "name": "Skygo",
+      "model_count": 1
+    },
+    {
+      "id": "313",
+      "name": "Sonik",
+      "model_count": 4
+    },
+    {
+      "id": "314",
+      "name": "Stels",
+      "model_count": 19
+    },
+    {
+      "id": "315",
+      "name": "Stingray",
+      "model_count": 2
+    },
+    {
+      "id": "316",
+      "name": "Super Soco",
+      "model_count": 1
+    },
+    {
+      "id": "317",
+      "name": "Swift",
+      "model_count": 6
+    },
+    {
+      "id": "318",
+      "name": "TM Racing",
+      "model_count": 12
+    },
+    {
+      "id": "319",
+      "name": "TVS",
+      "model_count": 11
+    },
+    {
+      "id": "320",
+      "name": "Tacita",
+      "model_count": 1
+    },
+    {
+      "id": "321",
+      "name": "Titan",
+      "model_count": 6
+    },
+    {
+      "id": "322",
+      "name": "Travertson",
+      "model_count": 1
+    },
+    {
+      "id": "323",
+      "name": "UM",
+      "model_count": 3
+    },
+    {
+      "id": "324",
+      "name": "Ventu",
+      "model_count": 6
+    },
+    {
+      "id": "325",
+      "name": "Victory",
+      "model_count": 23
+    },
+    {
+      "id": "326",
+      "name": "Viper",
+      "model_count": 3
+    },
+    {
+      "id": "327",
+      "name": "Virus",
+      "model_count": 7
+    },
+    {
+      "id": "328",
+      "name": "Vyrus",
+      "model_count": 3
+    },
+    {
+      "id": "329",
+      "name": "Wels",
+      "model_count": 14
+    },
+    {
+      "id": "330",
+      "name": "Xmotos",
+      "model_count": 6
+    },
+    {
+      "id": "331",
+      "name": "YCF",
+      "model_count": 22
+    },
+    {
+      "id": "332",
+      "name": "Yamasaki",
+      "model_count": 10
+    },
+    {
+      "id": "333",
+      "name": "Yinxiang",
+      "model_count": 1
+    },
+    {
+      "id": "334",
+      "name": "Zero",
+      "model_count": 5
+    },
+    {
+      "id": "336",
+      "name": "Zongshen",
+      "model_count": 7
+    },
+    {
+      "id": "337",
+      "name": "Zontes",
+      "model_count": 15
+    },
+    {
+      "id": "338",
+      "name": "TMZ",
+      "model_count": 3
+    },
+    {
+      "id": "339",
+      "name": "Daelim",
+      "model_count": 8
+    },
+    {
+      "id": "340",
+      "name": "Palfinger",
+      "model_count": 11
+    },
+    {
+      "id": "342",
+      "name": "Doosan",
+      "model_count": 16
+    },
+    {
+      "id": "343",
+      "name": "Haihong",
+      "model_count": 1
+    },
+    {
+      "id": "344",
+      "name": "Zetor",
+      "model_count": 12
+    },
+    {
+      "id": "345",
+      "name": "AGT",
+      "model_count": 18
+    },
+    {
+      "id": "346",
+      "name": "XGMA",
+      "model_count": 180
+    },
+    {
+      "id": "347",
+      "name": "Heli",
+      "model_count": 5
+    },
+    {
+      "id": "348",
+      "name": "Sinnis",
+      "model_count": 18
+    },
+    {
+      "id": "349",
+      "name": "NIU",
+      "model_count": 12
+    },
+    {
+      "id": "350",
+      "name": "Solis",
+      "model_count": 9
+    },
+    {
+      "id": "351",
+      "name": "Shantui",
+      "model_count": 82
+    },
+    {
+      "id": "352",
+      "name": "Benelli",
+      "model_count": 17
+    },
+    {
+      "id": "354",
+      "name": "Bashan",
+      "model_count": 4
+    },
+    {
+      "id": "355",
+      "name": "Atlas",
+      "model_count": 3
+    },
+    {
+      "id": "356",
+      "name": "Odes",
+      "model_count": 8
+    },
+    {
+      "id": "357",
+      "name": "Champ",
+      "model_count": 7
+    },
+    {
+      "id": "358",
+      "name": "Hisun",
+      "model_count": 21
+    },
+    {
+      "id": "359",
+      "name": "Gabro",
+      "model_count": 12
+    },
+    {
+      "id": "361",
+      "name": "Toyomax",
+      "model_count": 3
+    },
+    {
+      "id": "362",
+      "name": "Mannesmann Demag",
+      "model_count": 8
+    },
+    {
+      "id": "363",
+      "name": "Van Hool",
+      "model_count": 13
+    },
+    {
+      "id": "364",
+      "name": "Temsa",
+      "model_count": 4
+    },
+    {
+      "id": "365",
+      "name": "Sampo Rosenlew",
+      "model_count": 25
+    },
+    {
+      "id": "366",
+      "name": "Ariic",
+      "model_count": 10
+    },
+    {
+      "id": "367",
+      "name": "Argo",
+      "model_count": 32
+    },
+    {
+      "id": "368",
+      "name": "CBS",
+      "model_count": 4
+    },
+    {
+      "id": "369",
+      "name": "Sumitomo",
+      "model_count": 20
+    },
+    {
+      "id": "370",
+      "name": "Dynapac",
+      "model_count": 5
+    },
+    {
+      "id": "371",
+      "name": "MST",
+      "model_count": 2
+    },
+    {
+      "id": "372",
+      "name": "SDLG",
+      "model_count": 31
+    },
+    {
+      "id": "373",
+      "name": "Sany",
+      "model_count": 31
+    },
+    {
+      "id": "378",
+      "name": "Royal Alloy",
+      "model_count": 24
+    },
+    {
+      "id": "379",
+      "name": "Longjia",
+      "model_count": 35
+    },
+    {
+      "id": "380",
+      "name": "Znen",
+      "model_count": 61
+    },
+    {
+      "id": "381",
+      "name": "Luzhong",
+      "model_count": 74
+    },
+    {
+      "id": "385",
+      "name": "Hino",
+      "model_count": 5
+    },
+    {
+      "id": "386",
+      "name": "Linhai",
+      "model_count": 7
+    },
+    {
+      "id": "387",
+      "name": "Explorer",
+      "model_count": 1
+    },
+    {
+      "id": "388",
+      "name": "Otokar",
+      "model_count": 6
+    },
+    {
+      "id": "389",
+      "name": "Genie",
+      "model_count": 2
+    },
+    {
+      "id": "391",
+      "name": "Eougem",
+      "model_count": 9
+    },
+    {
+      "id": "392",
+      "name": "STA",
+      "model_count": 2
+    },
+    {
+      "id": "393",
+      "name": "ABG",
+      "model_count": 4
+    },
+    {
+      "id": "394",
+      "name": "Hamm",
+      "model_count": 23
+    },
+    {
+      "id": "395",
+      "name": "SEM",
+      "model_count": 1
+    },
+    {
+      "id": "396",
+      "name": "Hitachi",
+      "model_count": 7
+    },
+    {
+      "id": "402",
+      "name": "Kogel",
+      "model_count": 12
+    },
+    {
+      "id": "404",
+      "name": "Lambertta",
+      "model_count": 3
+    },
+    {
+      "id": "406",
+      "name": "Jialing",
+      "model_count": 4
+    },
+    {
+      "id": "418",
+      "name": "Arbos",
+      "model_count": 1
+    },
+    {
+      "id": "428",
+      "name": "Bamx",
+      "model_count": 4
+    },
+    {
+      "id": "432",
+      "name": "Sur-Ron",
+      "model_count": 3
+    },
+    {
+      "id": "434",
+      "name": "CHTZ (ЧТЗ)",
+      "model_count": 18
+    },
+    {
+      "id": "437",
+      "name": "TGB",
+      "model_count": 18
+    },
+    {
+      "id": "444",
+      "name": "Sanyou",
+      "model_count": 3
+    },
+    {
+      "id": "448",
+      "name": "Ikarus",
+      "model_count": 4
+    },
+    {
+      "id": "450",
+      "name": "Baodiao",
+      "model_count": 9
+    },
+    {
+      "id": "461",
+      "name": "DT",
+      "model_count": 3
+    },
+    {
+      "id": "465",
+      "name": "Vladimerec",
+      "model_count": 1
+    },
+    {
+      "id": "503",
+      "name": "Maschio Gaspardo",
+      "model_count": 3
+    },
+    {
+      "id": "511",
+      "name": "Mecalac",
+      "model_count": 5
+    },
+    {
+      "id": "515",
+      "name": "Azimut Yachts",
+      "model_count": 28
+    },
+    {
+      "id": "519",
+      "name": "Tesoro Yachts",
+      "model_count": 3
+    },
+    {
+      "id": "523",
+      "name": "Regal Boats",
+      "model_count": 19
+    },
+    {
+      "id": "525",
+      "name": "Kews",
+      "model_count": 3
+    },
+    {
+      "id": "529",
+      "name": "Fassi",
+      "model_count": 4
+    },
+    {
+      "id": "533",
+      "name": "Kama",
+      "model_count": 1
+    },
+    {
+      "id": "541",
+      "name": "Fendt",
+      "model_count": 9
+    },
+    {
+      "id": "557",
+      "name": "Tauris",
+      "model_count": 1
+    },
+    {
+      "id": "561",
+      "name": "Wangye",
+      "model_count": 3
+    },
+    {
+      "id": "565",
+      "name": "Arctic Car",
+      "model_count": 1
+    },
+    {
+      "id": "579",
+      "name": "Tumosan",
+      "model_count": 30
+    },
+    {
+      "id": "583",
+      "name": "Armatrac",
+      "model_count": 71
+    },
+    {
+      "id": "607",
+      "name": "Teyin",
+      "model_count": 13
+    },
+    {
+      "id": "611",
+      "name": "Fosti",
+      "model_count": 10
+    },
+    {
+      "id": "623",
+      "name": "Access",
+      "model_count": 1
+    },
+    {
+      "id": "627",
+      "name": "LV Tong",
+      "model_count": 1
+    },
+    {
+      "id": "631",
+      "name": "Govecs",
+      "model_count": 1
+    },
+    {
+      "id": "646",
+      "name": "Changfa",
+      "model_count": 3
+    },
+    {
+      "id": "654",
+      "name": "Taishan",
+      "model_count": 7
+    },
+    {
+      "id": "658",
+      "name": "Tavol",
+      "model_count": 10
+    },
+    {
+      "id": "662",
+      "name": "Shanyu",
+      "model_count": 12
+    },
+    {
+      "id": "666",
+      "name": "JF MIX",
+      "model_count": 4
+    },
+    {
+      "id": "670",
+      "name": "Hangcha",
+      "model_count": 12
+    },
+    {
+      "id": "674",
+      "name": "Parlayan",
+      "model_count": 1
+    },
+    {
+      "id": "678",
+      "name": "Ricosma",
+      "model_count": 1
+    },
+    {
+      "id": "682",
+      "name": "Acma",
+      "model_count": 1
+    },
+    {
+      "id": "686",
+      "name": "Yuksan",
+      "model_count": 1
+    },
+    {
+      "id": "690",
+      "name": "Armadora",
+      "model_count": 1
+    },
+    {
+      "id": "694",
+      "name": "Hisarlar",
+      "model_count": 1
+    },
+    {
+      "id": "698",
+      "name": "Cansa",
+      "model_count": 1
+    },
+    {
+      "id": "702",
+      "name": "Fugesen",
+      "model_count": 1
+    },
+    {
+      "id": "706",
+      "name": "Farmlead",
+      "model_count": 2
+    },
+    {
+      "id": "710",
+      "name": "Sadin",
+      "model_count": 1
+    },
+    {
+      "id": "714",
+      "name": "Jinma",
+      "model_count": 1
+    },
+    {
+      "id": "718",
+      "name": "Maschiao",
+      "model_count": 1
+    },
+    {
+      "id": "722",
+      "name": "XCMG",
+      "model_count": 29
+    },
+    {
+      "id": "726",
+      "name": "Kato",
+      "model_count": 5
+    },
+    {
+      "id": "730",
+      "name": "Kobelco",
+      "model_count": 7
+    },
+    {
+      "id": "734",
+      "name": "Vogelzang",
+      "model_count": 6
+    },
+    {
+      "id": "738",
+      "name": "Tadano",
+      "model_count": 51
+    },
+    {
+      "id": "742",
+      "name": "Sea Ray",
+      "model_count": 19
+    },
+    {
+      "id": "746",
+      "name": "Burkon",
+      "model_count": 3
+    },
+    {
+      "id": "750",
+      "name": "Untar",
+      "model_count": 8
+    },
+    {
+      "id": "754",
+      "name": "Saragri",
+      "model_count": 29
+    },
+    {
+      "id": "758",
+      "name": "Rol/Ex",
+      "model_count": 26
+    },
+    {
+      "id": "762",
+      "name": "Jar/Met",
+      "model_count": 16
+    },
+    {
+      "id": "766",
+      "name": "Adraf",
+      "model_count": 32
+    },
+    {
+      "id": "770",
+      "name": "Safer",
+      "model_count": 2
+    },
+    {
+      "id": "774",
+      "name": "VÖGELE",
+      "model_count": 19
+    },
+    {
+      "id": "782",
+      "name": "Lamberet",
+      "model_count": 6
+    },
+    {
+      "id": "790",
+      "name": "Manitou",
+      "model_count": 4
+    },
+    {
+      "id": "794",
+      "name": "Pom Augustow",
+      "model_count": 4
+    },
+    {
+      "id": "798",
+      "name": "ASM Technology",
+      "model_count": 4
+    },
+    {
+      "id": "802",
+      "name": "CLW",
+      "model_count": 4
+    },
+    {
+      "id": "806",
+      "name": "DFH",
+      "model_count": 4
+    },
+    {
+      "id": "810",
+      "name": "ATV",
+      "model_count": 1
+    },
+    {
+      "id": "818",
+      "name": "Kuhn",
+      "model_count": 1
+    },
+    {
+      "id": "822",
+      "name": "Broshuis",
+      "model_count": 1
+    },
+    {
+      "id": "826",
+      "name": "Haulotte",
+      "model_count": 1
+    },
+    {
+      "id": "834",
+      "name": "IFA",
+      "model_count": 2
+    },
+    {
+      "id": "838",
+      "name": "Demag",
+      "model_count": 4
+    },
+    {
+      "id": "842",
+      "name": "Grimme",
+      "model_count": 5
+    },
+    {
+      "id": "846",
+      "name": "Dewulf",
+      "model_count": 5
+    },
+    {
+      "id": "850",
+      "name": "Vollernter",
+      "model_count": 2
+    },
+    {
+      "id": "854",
+      "name": "Ahlmann",
+      "model_count": 5
+    },
+    {
+      "id": "858",
+      "name": "Kramer",
+      "model_count": 5
+    },
+    {
+      "id": "862",
+      "name": "Merlo",
+      "model_count": 5
+    },
+    {
+      "id": "866",
+      "name": "Ditch-Witch",
+      "model_count": 6
+    },
+    {
+      "id": "870",
+      "name": "Simex",
+      "model_count": 3
+    },
+    {
+      "id": "874",
+      "name": "Vermeer",
+      "model_count": 9
+    },
+    {
+      "id": "878",
+      "name": "Zide",
+      "model_count": 1
+    },
+    {
+      "id": "882",
+      "name": "Hero",
+      "model_count": 16
+    },
+    {
+      "id": "886",
+      "name": "Langendorf",
+      "model_count": 2
+    },
+    {
+      "id": "890",
+      "name": "Dieci",
+      "model_count": 2
+    },
+    {
+      "id": "894",
+      "name": "Abbey",
+      "model_count": 1
+    },
+    {
+      "id": "898",
+      "name": "MCMS",
+      "model_count": 1
+    },
+    {
+      "id": "902",
+      "name": "Hebasan",
+      "model_count": 1
+    },
+    {
+      "id": "906",
+      "name": "Kverneland",
+      "model_count": 2
+    },
+    {
+      "id": "910",
+      "name": "Turan",
+      "model_count": 1
+    },
+    {
+      "id": "914",
+      "name": "Mateng",
+      "model_count": 1
+    },
+    {
+      "id": "918",
+      "name": "Kadioglu",
+      "model_count": 4
+    },
+    {
+      "id": "922",
+      "name": "Sakalak",
+      "model_count": 5
+    },
+    {
+      "id": "926",
+      "name": "Ozdoken",
+      "model_count": 8
+    },
+    {
+      "id": "930",
+      "name": "Ozduman",
+      "model_count": 9
+    },
+    {
+      "id": "934",
+      "name": "Remet",
+      "model_count": 5
+    },
+    {
+      "id": "938",
+      "name": "Rolmet",
+      "model_count": 2
+    },
+    {
+      "id": "942",
+      "name": "Gallignani",
+      "model_count": 3
+    },
+    {
+      "id": "946",
+      "name": "Paksan",
+      "model_count": 2
+    },
+    {
+      "id": "950",
+      "name": "Elibol",
+      "model_count": 4
+    },
+    {
+      "id": "954",
+      "name": "Agromasz",
+      "model_count": 24
+    },
+    {
+      "id": "958",
+      "name": "Vilagro",
+      "model_count": 3
+    },
+    {
+      "id": "962",
+      "name": "Goldhofer",
+      "model_count": 1
+    },
+    {
+      "id": "966",
+      "name": "Rippa",
+      "model_count": 3
+    },
+    {
+      "id": "974",
+      "name": "RKS",
+      "model_count": 8
+    },
+    {
+      "id": "978",
+      "name": "ZTM",
+      "model_count": 3
+    },
+    {
+      "id": "979",
+      "name": "Kazuma",
+      "model_count": 3
+    },
+    {
+      "id": "983",
+      "name": "Inca",
+      "model_count": 1
+    },
+    {
+      "id": "987",
+      "name": "Ski-doo",
+      "model_count": 31
+    },
+    {
+      "id": "995",
+      "name": "Ford Trucks",
+      "model_count": 3
+    },
+    {
+      "id": "999",
+      "name": "Balkancar",
+      "model_count": 11
+    },
+    {
+      "id": "1003",
+      "name": "PPM",
+      "model_count": 26
+    },
+    {
+      "id": "1007",
+      "name": "XILIN",
+      "model_count": 3
+    },
+    {
+      "id": "1010",
+      "name": "Safter",
+      "model_count": 1
+    },
+    {
+      "id": "1013",
+      "name": "Astra",
+      "model_count": 3
+    },
+    {
+      "id": "1021",
+      "name": "Fintec",
+      "model_count": 6
+    },
+    {
+      "id": "1025",
+      "name": "Sandvik",
+      "model_count": 1
+    },
+    {
+      "id": "1029",
+      "name": "Warrior",
+      "model_count": 2
+    },
+    {
+      "id": "1033",
+      "name": "Mccloskey",
+      "model_count": 1
+    },
+    {
+      "id": "1037",
+      "name": "Metso",
+      "model_count": 3
+    },
+    {
+      "id": "1039",
+      "name": "Fruehauf",
+      "model_count": 1
+    },
+    {
+      "id": "1043",
+      "name": "Feldbinder",
+      "model_count": 1
+    },
+    {
+      "id": "1047",
+      "name": "Clark",
+      "model_count": 1
+    },
+    {
+      "id": "1051",
+      "name": "Burstner",
+      "model_count": 4
+    },
+    {
+      "id": "1055",
+      "name": "SKIF",
+      "model_count": 1
+    },
+    {
+      "id": "1059",
+      "name": "Chesh",
+      "model_count": 1
+    },
+    {
+      "id": "1063",
+      "name": "YIBEN",
+      "model_count": 1
+    },
+    {
+      "id": "1067",
+      "name": "HMT",
+      "model_count": 3
+    },
+    {
+      "id": "1069",
+      "name": "Benzhou",
+      "model_count": 1
+    },
+    {
+      "id": "1073",
+      "name": "Wirtgen",
+      "model_count": 37
+    },
+    {
+      "id": "1077",
+      "name": "Spierings",
+      "model_count": 5
+    },
+    {
+      "id": "1081",
+      "name": "Tecnoma",
+      "model_count": 4
+    },
+    {
+      "id": "1085",
+      "name": "Sennebogen",
+      "model_count": 3
+    },
+    {
+      "id": "1089",
+      "name": "Turchi",
+      "model_count": 3
+    },
+    {
+      "id": "1093",
+      "name": "Gayk",
+      "model_count": 1
+    },
+    {
+      "id": "1097",
+      "name": "Soilmec",
+      "model_count": 11
+    },
+    {
+      "id": "1101",
+      "name": "BMC",
+      "model_count": 1
+    },
+    {
+      "id": "1105",
+      "name": "EP Equipment",
+      "model_count": 63
+    },
+    {
+      "id": "1109",
+      "name": "Simpa",
+      "model_count": 26
+    },
+    {
+      "id": "1113",
+      "name": "Hokii",
+      "model_count": 1
+    },
+    {
+      "id": "1117",
+      "name": "Jungheinrich",
+      "model_count": 189
+    },
+    {
+      "id": "1121",
+      "name": "Steyr Daimler Puch",
+      "model_count": 1
+    },
+    {
+      "id": "1125",
+      "name": "Baic Yinxiang",
+      "model_count": 1
+    },
+    {
+      "id": "1129",
+      "name": "Axis",
+      "model_count": 1
+    },
+    {
+      "id": "1133",
+      "name": "Schwarzmuller",
+      "model_count": 1
+    },
+    {
+      "id": "1137",
+      "name": "Bombardier",
+      "model_count": 1
+    },
+    {
+      "id": "1141",
+      "name": "VIS",
+      "model_count": 1
+    },
+    {
+      "id": "1145",
+      "name": "Airman",
+      "model_count": 3
+    },
+    {
+      "id": "1149",
+      "name": "Multicar",
+      "model_count": 2
+    },
+    {
+      "id": "1153",
+      "name": "Gemini",
+      "model_count": 3
+    },
+    {
+      "id": "1157",
+      "name": "Landini",
+      "model_count": 3
+    },
+    {
+      "id": "1161",
+      "name": "Voge",
+      "model_count": 13
+    },
+    {
+      "id": "1165",
+      "name": "Benda",
+      "model_count": 13
+    },
+    {
+      "id": "1169",
+      "name": "Citycoco",
+      "model_count": 4
+    },
+    {
+      "id": "1173",
+      "name": "Lansu",
+      "model_count": 2
+    },
+    {
+      "id": "1185",
+      "name": "Quicsilver",
+      "model_count": 1
+    },
+    {
+      "id": "1189",
+      "name": "Waymeck",
+      "model_count": 4
+    },
+    {
+      "id": "1193",
+      "name": "Freightliner",
+      "model_count": 1
+    },
+    {
+      "id": "1197",
+      "name": "LOONG SHEEN",
+      "model_count": 2
+    },
+    {
+      "id": "1201",
+      "name": "X scooters",
+      "model_count": 1
+    },
+    {
+      "id": "1205",
+      "name": "Neva",
+      "model_count": 2
+    },
+    {
+      "id": "1213",
+      "name": "Potain",
+      "model_count": 1
+    },
+    {
+      "id": "1217",
+      "name": "Cattaneo",
+      "model_count": 1
+    },
+    {
+      "id": "1221",
+      "name": "Fari",
+      "model_count": 1
+    },
+    {
+      "id": "1225",
+      "name": "Raimondi",
+      "model_count": 1
+    },
+    {
+      "id": "1229",
+      "name": "MTB",
+      "model_count": 91
+    },
+    {
+      "id": "1233",
+      "name": "Fabo",
+      "model_count": 1
+    },
+    {
+      "id": "1245",
+      "name": "Irizar",
+      "model_count": 6
+    },
+    {
+      "id": "1253",
+      "name": "MADENCILIK",
+      "model_count": 1
+    },
+    {
+      "id": "1257",
+      "name": "Jinlun",
+      "model_count": 5
+    },
+    {
+      "id": "1265",
+      "name": "HANGKAI",
+      "model_count": 12
+    },
+    {
+      "id": "1268",
+      "name": "O&K",
+      "model_count": 1
+    },
+    {
+      "id": "1271",
+      "name": "KNAUS",
+      "model_count": 1
+    },
+    {
+      "id": "1275",
+      "name": "Antonio Carraro",
+      "model_count": 7
+    },
+    {
+      "id": "1279",
+      "name": "Snorkel",
+      "model_count": 1
+    },
+    {
+      "id": "1283",
+      "name": "CHALLENGER",
+      "model_count": 1
+    },
+    {
+      "id": "1291",
+      "name": "MBP",
+      "model_count": 2
+    },
+    {
+      "id": "1295",
+      "name": "Caffini",
+      "model_count": 15
+    },
+    {
+      "id": "1299",
+      "name": "KAEMER",
+      "model_count": 1
+    },
+    {
+      "id": "1303",
+      "name": "Hobby",
+      "model_count": 1
+    },
+    {
+      "id": "1307",
+      "name": "International",
+      "model_count": 1
+    },
+    {
+      "id": "1311",
+      "name": "Gomselmash",
+      "model_count": 9
+    },
+    {
+      "id": "1315",
+      "name": "Huateng",
+      "model_count": 4
+    },
+    {
+      "id": "1327",
+      "name": "CMC",
+      "model_count": 5
+    },
+    {
+      "id": "1331",
+      "name": "Ozbudak",
+      "model_count": 1
+    },
+    {
+      "id": "1335",
+      "name": "LANDKING",
+      "model_count": 9
+    },
+    {
+      "id": "1339",
+      "name": "SDAC",
+      "model_count": 6
+    },
+    {
+      "id": "1343",
+      "name": "Sodi",
+      "model_count": 1
+    },
+    {
+      "id": "1359",
+      "name": "PACTON",
+      "model_count": 1
+    },
+    {
+      "id": "1363",
+      "name": "TIRSAN",
+      "model_count": 1
+    },
+    {
+      "id": "1367",
+      "name": "RAF",
+      "model_count": 10
+    },
+    {
+      "id": "1371",
+      "name": "Nicot",
+      "model_count": 3
+    },
+    {
+      "id": "1375",
+      "name": "HZM",
+      "model_count": 6
+    },
+    {
+      "id": "1383",
+      "name": "Fleetwood RV",
+      "model_count": 1
+    },
+    {
+      "id": "1387",
+      "name": "Wilk",
+      "model_count": 5
+    },
+    {
+      "id": "1391",
+      "name": "Parcisa",
+      "model_count": 1
+    },
+    {
+      "id": "1395",
+      "name": "Hunan Fengjie",
+      "model_count": 2
+    },
+    {
+      "id": "1403",
+      "name": "MADRIGAL",
+      "model_count": 2
+    },
+    {
+      "id": "1407",
+      "name": "Jonway",
+      "model_count": 39
+    },
+    {
+      "id": "1415",
+      "name": "Surron",
+      "model_count": 5
+    },
+    {
+      "id": "1419",
+      "name": "Mountain Raise",
+      "model_count": 9
+    },
+    {
+      "id": "1427",
+      "name": "Bauer",
+      "model_count": 2
+    },
+    {
+      "id": "1431",
+      "name": "Taotao",
+      "model_count": 2
+    },
+    {
+      "id": "1435",
+      "name": "SCHWING",
+      "model_count": 1
+    },
+    {
+      "id": "1447",
+      "name": "Luyuan",
+      "model_count": 7
+    },
+    {
+      "id": "1459",
+      "name": "Flybrother",
+      "model_count": 5
+    },
+    {
+      "id": "1463",
+      "name": "Fangpower",
+      "model_count": 14
+    },
+    {
+      "id": "1475",
+      "name": "Fedele",
+      "model_count": 1
+    },
+    {
+      "id": "1483",
+      "name": "Tabbert",
+      "model_count": 1
+    },
+    {
+      "id": "1487",
+      "name": "Elddis",
+      "model_count": 1
+    },
+    {
+      "id": "1507",
+      "name": "Bucher",
+      "model_count": 1
+    },
+    {
+      "id": "1511",
+      "name": "MasterCraft",
+      "model_count": 19
+    },
+    {
+      "id": "1515",
+      "name": "Marex",
+      "model_count": 7
+    },
+    {
+      "id": "1524",
+      "name": "Zaslaw",
+      "model_count": 4
+    },
+    {
+      "id": "1527",
+      "name": "Paz",
+      "model_count": 2
+    },
+    {
+      "id": "1530",
+      "name": "Hengjian",
+      "model_count": 7
+    },
+    {
+      "id": "1536",
+      "name": "Wacker",
+      "model_count": 1
+    },
+    {
+      "id": "1540",
+      "name": "Sunlight",
+      "model_count": 1
+    },
+    {
+      "id": "1544",
+      "name": "Aodes",
+      "model_count": 2
+    },
+    {
+      "id": "1560",
+      "name": "Sitrak",
+      "model_count": 4
+    },
+    {
+      "id": "1564",
+      "name": "Furukawa",
+      "model_count": 1
+    },
+    {
+      "id": "1568",
+      "name": "Zhenda",
+      "model_count": 1
+    },
+    {
+      "id": "1573",
+      "name": "Compair",
+      "model_count": 1
+    },
+    {
+      "id": "1577",
+      "name": "Shibaura",
+      "model_count": 1
+    },
+    {
+      "id": "1581",
+      "name": "ХТЗ",
+      "model_count": 1
+    },
+    {
+      "id": "1585",
+      "name": "QJ Motor",
+      "model_count": 4
+    },
+    {
+      "id": "1591",
+      "name": "Takasaki",
+      "model_count": 21
+    },
+    {
+      "id": "1594",
+      "name": "Baoli",
+      "model_count": 24
+    },
+    {
+      "id": "1597",
+      "name": "Jayco",
+      "model_count": 1
+    },
+    {
+      "id": "1600",
+      "name": "Sovol",
+      "model_count": 1
+    },
+    {
+      "id": "1603",
+      "name": "Leyland",
+      "model_count": 2
+    },
+    {
+      "id": "1606",
+      "name": "Sagmoto",
+      "model_count": 5
+    },
+    {
+      "id": "1609",
+      "name": "FAE",
+      "model_count": 1
+    },
+    {
+      "id": "1612",
+      "name": "AMAG",
+      "model_count": 1
+    },
+    {
+      "id": "1615",
+      "name": "Agromaster",
+      "model_count": 4
+    },
+    {
+      "id": "1618",
+      "name": "Yutong",
+      "model_count": 1
+    },
+    {
+      "id": "1621",
+      "name": "Ruichi",
+      "model_count": 1
+    },
+    {
+      "id": "1624",
+      "name": "Zown",
+      "model_count": 1
+    },
+    {
+      "id": "1627",
+      "name": "Takeuchi",
+      "model_count": 1
+    },
+    {
+      "id": "1630",
+      "name": "LTMG",
+      "model_count": 1
+    },
+    {
+      "id": "1633",
+      "name": "Lance",
+      "model_count": 1
+    },
+    {
+      "id": "1636",
+      "name": "Lexmoto",
+      "model_count": 1
+    },
+    {
+      "id": "1642",
+      "name": "Qooder",
+      "model_count": 2
+    },
+    {
+      "id": "1645",
+      "name": "Saao",
+      "model_count": 1
+    },
+    {
+      "id": "1649",
+      "name": "TEU",
+      "model_count": 4
+    },
+    {
+      "id": "1652",
+      "name": "Strumyk",
+      "model_count": 3
+    },
+    {
+      "id": "1654",
+      "name": "Paus",
+      "model_count": 1
+    },
+    {
+      "id": "1657",
+      "name": "Ginaf",
+      "model_count": 1
+    },
+    {
+      "id": "1660",
+      "name": "Cenntro",
+      "model_count": 7
+    },
+    {
+      "id": "1661",
+      "name": "Yacawo",
+      "model_count": 1
+    },
+    {
+      "id": "1666",
+      "name": "Klemm",
+      "model_count": 1
+    },
+    {
+      "id": "10001",
+      "name": "ADT",
+      "model_count": 0
+    },
+    {
+      "id": "10024",
+      "name": "Cfmoto",
+      "model_count": 0
+    },
+    {
+      "id": "10050",
+      "name": "Greatwall",
+      "model_count": 0
+    },
+    {
+      "id": "10057",
+      "name": "Howo",
+      "model_count": 0
+    },
+    {
+      "id": "10075",
+      "name": "LIU Gong",
+      "model_count": 0
+    },
+    {
+      "id": "10114",
+      "name": "Schmitz",
+      "model_count": 0
+    },
+    {
+      "id": "10141",
+      "name": "Zoomline",
+      "model_count": 0
+    }
+  ]
+}

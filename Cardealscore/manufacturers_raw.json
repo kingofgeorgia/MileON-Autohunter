@@ -1,0 +1,588 @@
+{
+  "debug_report": {
+    "time": {
+      "total": "13 milliseconds",
+      "queries": "0 milliseconds"
+    },
+    "memory": {
+      "start_usage": "411.64 KB",
+      "end_usage": "2.27 MB",
+      "peak_usage": "2.29 MB"
+    }
+  },
+  "data": [
+    {
+      "category_id": 1,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "სედანი",
+      "seo_title": "sedani",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 5,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "ჯიპი",
+      "seo_title": "jipi",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 4,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "კუპე",
+      "seo_title": "kupe",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 2,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "ჰეტჩბექი",
+      "seo_title": "hechbeqi",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 3,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "უნივერსალი",
+      "seo_title": "universali",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 6,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "კაბრიოლეტი",
+      "seo_title": "kabrioleti",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 29,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "პიკაპი",
+      "seo_title": "pikapi",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 30,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "მინივენი",
+      "seo_title": "miniveni",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 15,
+      "category_type": 0,
+      "has_icon": 1,
+      "title": "ლიმუზინი",
+      "seo_title": "limuzini",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 66,
+      "category_type": 0,
+      "has_icon": 0,
+      "title": "კროსოვერი",
+      "seo_title": "Сrossover",
+      "vehicle_types": [
+        0
+      ]
+    },
+    {
+      "category_id": 36,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "გამწევი",
+      "seo_title": "gamwevi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 16,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სატვირთო",
+      "seo_title": "satvirto",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 38,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "თვითმცლელი",
+      "seo_title": "tvitmcleli",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 27,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სასოფლო-სამეურნეო",
+      "seo_title": "sasoplo-sameurneo",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 23,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ამწე",
+      "seo_title": "amwe",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 25,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ექსკავატორი",
+      "seo_title": "eqskavatori",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 20,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სპეც. ტექნიკა",
+      "seo_title": "specteqnika",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 19,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "მისაბმელი",
+      "seo_title": "misabmeli",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 28,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "დამტვირთველი",
+      "seo_title": "damtvirtveli",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 42,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ბეტონსაქაჩი ტუმბო",
+      "seo_title": "betonsaqachi-tumbo",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 37,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "საგზაო",
+      "seo_title": "sagzao",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 44,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სასაწყობე დამტვირთველი",
+      "seo_title": "sasawyobe-damtvirtveli",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 43,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "კომპაქტური დამტვირთველი",
+      "seo_title": "kompaqturi-damtvirtveli",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 40,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სატკეპნი",
+      "seo_title": "satkepni",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 14,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ავტობუსი",
+      "seo_title": "avtobusi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 39,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "გრეიდერი",
+      "seo_title": "greideri",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 45,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "მაცივარი",
+      "seo_title": "macivari",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 50,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ევაკუატორი",
+      "seo_title": "Evacuatori",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 53,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ბეტონმზიდი მიქსერი",
+      "seo_title": "betonmzidi miqseri",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 24,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ბულდოზერი",
+      "seo_title": "buldozeri",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 26,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სამშენებლო",
+      "seo_title": "samsheneblo",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 48,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ფურგონი",
+      "seo_title": "furgoni",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 35,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "მსუბუქი კომერციული",
+      "seo_title": "msubuqi-komerciuli",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 41,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "გენერატორი",
+      "seo_title": "generatori",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 57,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "კემპერი",
+      "seo_title": "kemperi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 65,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "საწვავმზიდი",
+      "seo_title": "sawvavmzidi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 61,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "მისაბმელი კემპერი",
+      "seo_title": "misabmeli kemperi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 49,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ჰიდრავლიკური ჩაქუჩი",
+      "seo_title": "Hidravlikuri chakuchi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 71,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ცემენტმზიდი",
+      "seo_title": "Cement Trucks",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 75,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ამწე-კალათა",
+      "seo_title": "Crane-basket",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 79,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ასენიზაციის ტექნიკა",
+      "seo_title": "Sewerage Truck",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 89,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "სწრაფი კვების ავტომობილი",
+      "seo_title": "სწრაფი კვების ავტომობილი",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 93,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "წყალმზიდი",
+      "seo_title": "წყალმზიდი",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 95,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "მიკროავტობუსი",
+      "seo_title": "mikroavtobusi",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 103,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "ამწე-მანიპულატორი",
+      "seo_title": "Crane-manipulator",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 106,
+      "category_type": 1,
+      "has_icon": 0,
+      "title": "გოლფ კარტი",
+      "seo_title": "Golf Cart",
+      "vehicle_types": [
+        1
+      ]
+    },
+    {
+      "category_id": 17,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "მოტოციკლეტი",
+      "seo_title": "motocikleti",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 31,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "სკუტერი",
+      "seo_title": "Scooter",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 33,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "კვადროციკლი",
+      "seo_title": "kvadrocikli",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 21,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "წყლის ტრანსპორტი",
+      "seo_title": "wylis-transporti",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 47,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "ტრიციკლი",
+      "seo_title": "tricikli",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 46,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "ბაგი",
+      "seo_title": "bagi",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 32,
+      "category_type": 2,
+      "has_icon": 1,
+      "title": "თოვლმავალი",
+      "seo_title": "tovlmavali",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 83,
+      "category_type": 2,
+      "has_icon": 0,
+      "title": "მისაბმელი ნავისთვის",
+      "seo_title": "Trailer for boat",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 87,
+      "category_type": 2,
+      "has_icon": 0,
+      "title": "მოტოტექნიკის მისაბმელი",
+      "seo_title": "Trailer for motorcycle",
+      "vehicle_types": [
+        2
+      ]
+    },
+    {
+      "category_id": 99,
+      "category_type": 2,
+      "has_icon": 0,
+      "title": "კართინგ-ქარი",
+      "seo_title": "Karting-car",
+      "vehicle_types": [
+        2
+      ]
+    }
+  ],
+  "versioning": {
+    "app_data_version": "1.9.26",
+    "langs_version": "1.9.25",
+    "app_store_version": "1.0.271+311",
+    "play_store_version": "1.0.271+311",
+    "endPoints": {
+      "appDataGenerator": "1.9.26",
+      "langGenerator": "1.9.25"
+    },
+    "application": "1.9",
+    "androidVersion": "1.0.271+311",
+    "iosVersion": "1.0.271+311"
+  }
+}

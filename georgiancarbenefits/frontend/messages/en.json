@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "calculator": "Calculator",
+    "catalog": "Car Catalog",
+    "history": "History",
+    "login": "Sign In",
+    "register": "Sign Up",
+    "logout": "Sign Out"
+  },
+  "hero": {
+    "title": "Is it worth importing a car from Georgia?",
+    "subtitle": "Calculate the full cost of importing a car from Georgia to Russia — customs, recycling fee, logistics — and compare with a domestic analog.",
+    "cta": "Calculate"
+  },
+  "calculator": {
+    "title": "Import Cost Calculator",
+    "carPriceUsd": "Car price (USD)",
+    "engineVolume": "Engine volume (cc)",
+    "carYear": "Year of manufacture",
+    "horsePower": "Power (hp)",
+    "powerKw": "Power (kW)",
+    "fuelType": "Fuel type",
+    "fuelTypeAuto": "Filled automatically from the listing",
+    "engineVolumeNotRequiredForEv": "Not required for electric vehicles",
+    "powertrainKind": "Powertrain type",
+    "powertrainKinds": {
+      "ICE": "ICE",
+      "OTHER_HYBRID": "Hybrid",
+      "EV": "EV",
+      "SERIES_HYBRID": "Series hybrid"
+    },
+    "logisticsCost": "Logistics Georgia → Russia (₽)",
+    "rfAnalogPrice": "RF analog price (₽, optional)",
+    "openAutoRuAnalogSearch": "Open analog search on auto.ru",
+    "autoRuAnalogSearchHint": "Opens a prepared search by make, model, year, power, and engine volume.",
+    "note": "Note (optional)",
+    "urlLabel": "Paste myauto.ge link",
+    "urlPlaceholder": "https://www.myauto.ge/.../pr/12345678",
+    "urlLoad": "Load car",
+    "horsePowerDetected": "Detected power: {hp} hp",
+    "powerKwDetected": "Detected power: {kw} kW",
+    "canonicalModel": "Canonical model",
+    "calculate": "Calculate",
+    "saveToHistory": "Save calculation",
+    "results": {
+      "title": "Calculation result",
+      "carPrice": "Car price in rubles",
+      "customsFee": "Customs fee",
+      "customsDuty": "Customs duty",
+      "recyclingFee": "Recycling fee",
+      "totalCustoms": "Total customs clearance",
+      "logistics": "Logistics",
+      "total": "Total cost",
+      "savings": "Savings vs RF price",
+      "overpay": "Overpay vs RF price"
+    }
+  },
+  "rates": {
+    "title": "Current exchange rates",
+    "usdRub": "USD → ₽",
+    "eurRub": "EUR → ₽",
+    "gelRub": "GEL → ₽"
+  },
+  "catalog": {
+    "title": "Cars from myauto.ge",
+    "search": "Search",
+    "allMakes": "All makes",
+    "allModels": "All models",
+    "make": "Make",
+    "model": "Model",
+    "canonicalModel": "Canonical model",
+    "yearFrom": "Year from",
+    "yearTo": "Year to",
+    "priceUsdTo": "Price up to (USD)",
+    "logisticsCost": "Logistics (₽)",
+    "loadingModels": "Loading models...",
+    "estimatedTotal": "Estimated total (RUB)",
+    "noResults": "No cars found. Try different filters.",
+    "viewOnMyauto": "View on myauto.ge",
+    "mileage": "Mileage",
+    "km": "km"
+  },
+  "gallery": {
+    "open": "Open photo in fullscreen",
+    "close": "Close fullscreen viewer",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "photoNumber": "Photo {current} of {total}"
+  },
+  "history": {
+    "title": "Calculation history",
+    "empty": "You have no saved calculations.",
+    "delete": "Delete",
+    "total": "Total",
+    "year": "Year",
+    "engine": "Engine",
+    "horsePower": "Power",
+    "date": "Date"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "loginTitle": "Sign In",
+    "registerTitle": "Sign Up",
+    "loginAction": "Sign In",
+    "registerAction": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "signIn": "Sign in"
+  },
+  "errors": {
+    "required": "Required field",
+    "invalidEmail": "Invalid email",
+    "minPassword": "Minimum 8 characters",
+    "generic": "Something went wrong. Please try again."
+  }
+}

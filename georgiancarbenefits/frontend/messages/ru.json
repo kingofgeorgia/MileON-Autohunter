@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "calculator": "Калькулятор",
+    "catalog": "Каталог авто",
+    "history": "История",
+    "login": "Войти",
+    "register": "Регистрация",
+    "logout": "Выйти"
+  },
+  "hero": {
+    "title": "Выгодно ли везти авто из Грузии?",
+    "subtitle": "Рассчитайте полную стоимость ввоза автомобиля из Грузии в РФ — таможня, утильсбор, логистика — и сравните с ценой аналога в России.",
+    "cta": "Рассчитать"
+  },
+  "calculator": {
+    "title": "Калькулятор стоимости ввоза",
+    "carPriceUsd": "Цена авто (USD)",
+    "engineVolume": "Объём двигателя (куб.см)",
+    "carYear": "Год выпуска",
+    "horsePower": "Мощность (л.с.)",
+    "powerKw": "Мощность (кВт)",
+    "fuelType": "Тип топлива",
+    "fuelTypeAuto": "Подставляется автоматически из объявления",
+    "engineVolumeNotRequiredForEv": "Не требуется для электромобилей",
+    "powertrainKind": "Тип силовой установки",
+    "powertrainKinds": {
+      "ICE": "ДВС",
+      "OTHER_HYBRID": "Гибрид",
+      "EV": "Электромобиль",
+      "SERIES_HYBRID": "Последовательный гибрид"
+    },
+    "logisticsCost": "Логистика Грузия → РФ (₽)",
+    "rfAnalogPrice": "Цена аналога в РФ (₽, необязательно)",
+    "openAutoRuAnalogSearch": "Открыть поиск аналога на auto.ru",
+    "autoRuAnalogSearchHint": "Откроется готовый поиск по марке, модели, году, мощности и объёму двигателя.",
+    "note": "Заметка (необязательно)",
+    "urlLabel": "Вставить ссылку с myauto.ge",
+    "urlPlaceholder": "https://www.myauto.ge/.../pr/12345678",
+    "urlLoad": "Загрузить авто",
+    "horsePowerDetected": "Мощность определена: {hp} л.с.",
+    "powerKwDetected": "Мощность определена: {kw} кВт",
+    "canonicalModel": "Каноничная модель",
+    "calculate": "Рассчитать",
+    "saveToHistory": "Сохранить расчёт",
+    "results": {
+      "title": "Результат расчёта",
+      "carPrice": "Цена авто в рублях",
+      "customsFee": "Таможенный сбор",
+      "customsDuty": "Таможенная пошлина",
+      "recyclingFee": "Утилизационный сбор",
+      "totalCustoms": "Общая растаможка",
+      "logistics": "Логистика",
+      "total": "Итого к оплате",
+      "savings": "Экономия по сравнению с РФ",
+      "overpay": "Переплата по сравнению с РФ"
+    }
+  },
+  "rates": {
+    "title": "Актуальные курсы валют",
+    "usdRub": "USD → ₽",
+    "eurRub": "EUR → ₽",
+    "gelRub": "GEL → ₽"
+  },
+  "catalog": {
+    "title": "Каталог авто с myauto.ge",
+    "search": "Поиск",
+    "allMakes": "Все марки",
+    "allModels": "Все модели",
+    "make": "Марка",
+    "model": "Модель",
+    "canonicalModel": "Каноничная модель",
+    "yearFrom": "Год от",
+    "yearTo": "Год до",
+    "priceUsdTo": "Цена до (USD)",
+    "logisticsCost": "Логистика (₽)",
+    "loadingModels": "Загружаем модели...",
+    "estimatedTotal": "Итого к оплате (RUB)",
+    "noResults": "Авто не найдены. Измените параметры поиска.",
+    "viewOnMyauto": "Смотреть на myauto.ge",
+    "mileage": "Пробег",
+    "km": "км"
+  },
+  "gallery": {
+    "open": "Открыть фото в полноэкранном режиме",
+    "close": "Закрыть полноэкранный просмотр",
+    "previous": "Предыдущее фото",
+    "next": "Следующее фото",
+    "photoNumber": "Фото {current} из {total}"
+  },
+  "history": {
+    "title": "История расчётов",
+    "empty": "У вас ещё нет сохранённых расчётов.",
+    "delete": "Удалить",
+    "total": "Итого",
+    "year": "Год",
+    "engine": "Двигатель",
+    "horsePower": "Мощность",
+    "date": "Дата"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Пароль",
+    "loginTitle": "Вход",
+    "registerTitle": "Регистрация",
+    "loginAction": "Войти",
+    "registerAction": "Зарегистрироваться",
+    "noAccount": "Нет аккаунта?",
+    "hasAccount": "Уже есть аккаунт?",
+    "signUp": "Зарегистрироваться",
+    "signIn": "Войти"
+  },
+  "errors": {
+    "required": "Обязательное поле",
+    "invalidEmail": "Некорректный email",
+    "minPassword": "Минимум 8 символов",
+    "generic": "Произошла ошибка. Попробуйте снова."
+  }
+}

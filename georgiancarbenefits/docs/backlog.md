@@ -1,0 +1,47 @@
+# Backlog
+
+## 2026-04-08
+- Fixed calculator submit robustness after recent UI changes: optional fields are normalized correctly, the last calculated payload survives rerenders for history saving, and invalid submits now show an explicit validation error instead of silently doing nothing.
+- Fixed the temporary auto.ru analog-search helper to use a path-based `used/sale/<make>/<model>/` URL instead of a generic search root that lost the applied filters.
+- Added a temporary `Цена аналога в РФ` helper button that opens a prepared auto.ru search based on the imported myauto listing parameters instead of auto-parsing prices from auto.ru.
+- Changed logistics defaults to `170000 ₽` for regular classes and `200000 ₽` for imported SUV/crossover listings based on myauto `category_id` (`5` and `66`).
+- Disabled the engine-volume input for `Электромобиль` in the calculator UI and updated the backend customs helper so EV calculations accept `engine_volume_cc=0` without breaking ICE validation paths.
+- Changed the calculator UI so `Электромобиль` shows the power input in `кВт` while still converting back to horsepower before calling backend calculation and history APIs.
+- Made learned-horsepower lookup and save fail open: if the new table or migration is not available yet, myauto import and calculator flows continue to work without DB-backed power memory instead of failing the whole request.
+- Added a dedicated `learned_vehicle_powers` table and backend service to remember user-entered horsepower for imported myauto listings by `make`, `model`, and `model_id`.
+- Extended calculator payloads with source car identity fields so successful calculations can persist learned horsepower for later reuse.
+- Updated `POST /cars/from-url` to reuse remembered horsepower from the database when a listing lacks raw power data, ahead of the static spec-catalog fallback.
+- Changed the frontend `dev` script to clear `.next` before `next dev`, preventing recurring false `404` responses from stale Turbopack route cache in Docker.
+- Made `horse_power` mandatory in calculator form validation and in backend `CalculatorRequest`, so calculations and history saves no longer accept payloads without power.
+- Added a separate `Общая растаможка` summary row in calculator results before `Итого к оплате`.
+- Fixed localized frontend routes returning false 404 by explicitly registering locale params and setting the `next-intl` request locale in `src/app/[locale]/layout.tsx`.
+- Removed the remaining local analysis warning for `curl_cffi.requests` by switching `myauto.py` to runtime import instead of a direct static import.
+- Removed the remaining internal override paths from `personal_import_customs.py` and its tests, leaving only automatic utilization-coefficient and hp→kW calculation.
+- Added `fuel_type` normalization to `CarListing` and wired calculator UI autofill for both fuel type and powertrain kind from imported myauto listings.
+- Removed the calculator UI fields for manual `util_coefficient` and `power_kw_override`; the backend now always computes utilization coefficient and hp→kW automatically during calculation.
+- Moved navbar auth controls into a client-only dynamic component so SSR no longer tries to render a branch that depends on `localStorage`.
+- Tightened the navbar hydration fix by rendering a stable pre-mount auth UI and only switching to logout after client mount/token detection.
+- Fixed the navbar hydration mismatch by moving `localStorage` auth-token detection out of render-time and into a client-side effect.
+- Removed the deprecated top-level `version` key from `docker-compose.yml`, eliminating the current Docker Compose warning on local commands.
+- Added exception logging for currency-provider fallback so broken exchange-rate responses are visible immediately in backend logs.
+- Switched backend currency rates from the broken `exchangerate.host` integration to the free `open.er-api.com/v6/latest/USD` endpoint and updated env defaults/documentation.
+- Added validation for `result=success` plus required `RUB` / `EUR` / `GEL` rates before accepting remote exchange-rate payloads.
+- Fixed loading car data from myauto URL in calculator: `/cars/from-url` is now available without authentication for public calculator flow.
+- Improved URL parsing robustness for pasted links by trimming leading/trailing spaces.
+- Added model name resolution through myauto `vehicle/models` reference when listing details contain `model_id` but empty `car_model`.
+- Added `GET /cars/models?make_id=...` so frontend can load the same myauto models directory directly from backend.
+- Connected frontend catalog filters to `/cars/makes` and `/cars/models`, including dependent make/model selects.
+- Made `/cars/makes` and `/cars/models` public for catalog UI and pinned `bcrypt<5` to restore backend registration/login with passlib.
+- Changed model normalization to prefer canonical myauto directory names over ad-level `car_model`, fixing cases like `Amg line` vs `GLE 450`.
+- Extended `CarListing` responses with raw `model_id` and `car_model` alongside canonical `model`.
+- Updated frontend calculator and catalog to visibly render `make`, `model_id`, `car_model`, and canonical `model`.
+- Adjusted frontend title formatting to show cars as `make + model + car_model + year`, with raw metadata moved to a secondary line.
+- Removed the secondary metadata line from frontend car cards/import preview, leaving only the formatted primary title.
+- Added photo gallery support: backend now returns `image_urls`, and calculator shows a carousel for the imported listing.
+- Reused the same carousel in catalog cards and added fullscreen photo viewing by clicking listing images.
+- Added a standalone backend helper `calculatePersonalImportCustoms(...)` with a deterministic personal-use import formula based on customs fee, unified rate, and utilization fee only.
+- Added fallback horsepower/spec lookup for myauto listings and wired precise personal-use calculation into URL-loaded calculator flow and catalog estimates when spec data is available.
+- Moved the vehicle spec catalog out of Python into `backend/app/data/vehicle_specs.json` and seeded it with additional BMW, Mercedes-Benz, Tesla, and Lexus entries for easier extension.
+- Added persistence for user-entered power calculation inputs: horsepower, utilization coefficient, and personal-use flag are now stored in `calculations` and surfaced through history.
+- Replaced the previous personal-use `util_coefficient` shortcut with the full 2026 table-driven calculation from the attached `customs.ts`, including automatic coefficient selection by age, power, engine volume, and powertrain kind.
+- Added support for `powertrain_kind` and `power_kw_override` in calculator/history payloads, myauto spec resolution, and saved calculations.

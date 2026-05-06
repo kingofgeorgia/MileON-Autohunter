@@ -1,0 +1,11 @@
+{
+  "currency_symbol": "$",
+  "currency_rate": 1.0,
+  "default_min_roi": "",
+  "source_filter": "",
+  "repair_cost": 0.0,
+  "tax_rate": 0.0,
+  "monthly_capital_rate": 0.0,
+  "parking_daily": 0.0,
+  "insurance_daily": 0.0
+}
